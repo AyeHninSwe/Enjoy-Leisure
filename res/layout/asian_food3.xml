@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <TextView
+        android:id="@+id/asian_food3_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="\nလာအုိစတုိင္ ငါးရံ့ေပါင္း\n" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+  
+    <Button
+        android:id="@+id/asian_food3_previous_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous" />
+
+    <Button
+        android:id="@+id/asian_food3_home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/asian_food3_next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+    
+     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/a3" />
+            
+             <TextView
+            android:id="@+id/asian_food3_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+             android:text="လာအိုစတိုင္ ငါရံေပါင္း ကို အုန္းနုိ႔နဲ႔ ခ်က္ထားလို႔ အရသာက စိမ္႔ေနသည္႔ အျပင္ ပင္စိမ္းပါလို႔ အနံေလးကလည္း သင္းေနပါတယ္။ လာအုိလိုကေတာ႔ မိုပလို႔ေခၚပါတယ္.. 
+-------------------------
+ပါ၀င္ေသာပစၥည္းမ်ား
+၁။ ငါးရံ – ၃၀က်ပ္သား
+၂။ ငါးဖယ္ – ၅က်ပ္သား
+၃။ ၾကက္ဥ – ၁လံုး (ခေလာက္ပါ)
+၄။ ငရုတ္ပြအနီအနွစ္ – စားပြဲတင္ဇြန္း တ၀က္ (ငရုတ္ပြ ၄ခုျပဳတ္ျပီး၊ ေက်ညက္ေအာင္ ေထာင္းပါ)
+၅။ ဆား – လက္ဖက္ရည္ဇြန္း ၁ဇြန္း
+၆။ ၾကက္သားမွုန္႔ – လက္ဖက္ရည္ဇြန္း ၁ဇြန္း
+၇။ အုန္းနို႔ (Coconut Cream)
+၈။ ငံျပာ၇ည္ – လက္ဖက္ရည္ဇြန္း ၁ဇြန္း
+၉။ သၾကား – လက္ဖက္ရည္ဇြန္း တ၀က္
+၁၀။ ပင္စိမ္း – ၁စည္း (နွုတ္နွုတ္စဥ္းပါ)
+-------------------------
+ခ်က္ျပဳတ္နည္း
+၁။ ငါးရံ့ကို အေရခြံႏြာ၊ အရုိးထုတ္ျပီး ငါးရံ့အသားမ်ားကို နွုတ္နွုတ္စဥ္းပါ။
+၂။ ျပီးလွ်င္ ခြက္တစ္ခုထဲသို႔ ေထာင္းထားေသာ ငါးဖယ္ကုိ နွုတ္ႏုွတ္စဥ္း ထားေသာ ငါးရံ့သားမ်ားျဖင္႔ ေ၇ာနုယ္လိုက္ပါ။
+၃။ ျပီးလွ်င္ ငါးရံနုယ္ထားေသာ ခြက္ထဲသုိ႔ ငရုတ္သီးအနွစ္(စားပြဲတင္ဇြန္း တ၀က္)၊ အုန္းနုိ႔(စားပြဲတင္ဇြန္း ၁ဇြန္း)၊ ၾကက္ဥ(စားပြဲတင္ဇြန္း ၁ဇြန္း)၊ နွုတ္နွုတ္စဥ္းထားေသာ ပင္စိမ္း၊ ဆား၊ ၾကက္သားမွုန္႔ တို႔ကို ထည္႔နုယ္လိုက္ပါ။
+၄။ ထုိ႔ေနာက္ ၂လက္မအရြယ္ အလံုး ၃လံုးလံုးလိုက္ပါ။
+၅။ ျပီးေနာက္ ေပါင္းအုိးထဲထည္႔၍ ၁၅မိနစ္ခန္႔ေပါင္းေပးပါ။
+၆။ ေပါင္းေနစဥ္အတြင္း ဒယ္ထဲသို႔ အုန္းနုိ႔(စားပြဲတင္ဇြန္း ၃ဇြန္း)၊ သၾကား၊ ငံျပာရည္ မီးနည္းနည္းျဖင္႔ မပ်စ္မက်ဲ အေနထားသုိ႔ေ၇ာက္ေအာင္ စကၠန္႔အနည္းငယ္ တည္ထားေပးပါ။
+ရ။ ေပါင္းျပီးလွ်င္ ငါးရံေပါင္းကို ကို တ၀က္၀က္ျပီး ပန္းကန္ျပားေပၚတင္လိုက္ပါ၊ ျပီးမွ ခ်က္ထားေသာ အုန္းနုိ႔အရည္ကို အေပၚမွ ေလာင္းခ်လိုက္ပါ။
+၈။ စားလို႔ေကာင္းျပီ အနံသင္းေနသည္႔ လာအိုစတုိင္ ငါးရံ့ေပါင္းကို သံုးေဆာင္လို႔
+"/>
+            
+        </LinearLayout>
+
+       
+
+    </ScrollView>
+	
+
+</LinearLayout>

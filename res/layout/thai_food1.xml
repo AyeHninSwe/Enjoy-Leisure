@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	 <TextView
+        android:id="@+id/thai_food1_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="\nPad Thai ဆန္ျပားေခါက္ဆြဲေၾကာ္\n" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+  
+    
+    <Button
+        android:id="@+id/thai_food1_home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/thai_food1_next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+    
+     </LinearLayout>
+    
+    
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/t1" />
+            
+             <TextView
+            android:id="@+id/thai_food1_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="ပါ၀င္ပစၥည္းမ်ား
+    ဆန္ျပားေခါက္ဆြဲ(သို႔)ဆန္ေခါက္ဆြဲ – ၃၀၀ ဂရမ္
+    ပုဇြန္က်ား – ၁၅၀ ဂရမ္ (အျမွီခ်န္ အခြံႏႊာထားေပးပါ)
+    ၾကက္အူေခ်ာင္း – ၂ေခ်ာင္း (အေစာင္းပါးပါးလွီး ဆီနည္းနည္းျဖင္႔ ေၾကာ္ထားေပးပါ)
+    ဂုံး – စားပြဲတင္ဇြန္း ၃ဇြန္းစာ (optional)
+    ပဲငံျပာရည္ – စားပြဲတင္ဇြန္း ၂ဇြန္း
+    ငါးငံျပာရည္ – လက္ဖက္ရည္ဇြန္း ၁ဇြန္း
+    ဆြမ္းအုပ္ ဟင္းခတ္မွုန္႔ –  လက္ဖက္ရည္ဇြန္း ၃ပံု၁ပံု
+    ၾကက္သြန္ျဖဴ – ၂မႊာ (ႏွုတ္နွုတ္စဥ္းထားပါ)
+    ငရုတ္သီးအနွစ္ – လက္ဖက္ရည္ဇြန္း ၁ဇြန္း
+    ၾကက္သြန္ျမိတ္ – စည္း၀က္ (၁လက္မခြဲအရြယ္ ပိုင္းျဖတ္ထားပါ)
+    ဟူစုိင္ – စည္း၀က္ (၁လက္မခြဲအရြယ္ ပိုင္းျဖတ္ပါ)
+    ပဲပင္ေပါက္ – လက္၂ဆုပ္စာ
+    ၾကက္ဥ – ၂လံုး (ခေလာက္ထားပါ)
+    သံပရာသီး – ၁လံုး (အ၀ုိင္းပါးပါးလွီးထားပါ)
+    ေျမပဲ – စားပြဲတင္ဇြန္း ၅ဇြန္း (မညက္တညက္ေထာင္းပါ)
+---------------------------------------
+ျပင္ဆင္နည္း
+၁။ အရင္ဆံုး ဒယ္အုိးထဲ ေရမ်ားမ်ားထည္႔ျပီ ေရဆူလာလွ်င္ ဆားအနည္းငယ္ထည္႔၊ ဆန္ေခါက္ဆြဲထည္႔ျပီ ၄-၅မိနစ္ခန္႔ တည္ထားေပးပါ။
+၂။ ျပီလွ်င္ ဆန္ေခါက္ဆြဲကို ဇကာျဖင္႔ ျပန္စစ္ထားေပးပါ။
+၃။ ဒယ္ထဲ ဆီ(စားပြဲတင္ဇြန္း ၁ဇြန္း)ထည္႔ျပီ ဆီပူလွ်င္ ၾကက္ဥ ၂လံုးကို အ၀ိုင္းျပား ေၾကာ္ေပးျပီ ပန္းကန္ထဲ ျပန္ဖယ္ထားပါ
+၄။ ျပီလွ်င္ ဒယ္ထဲ ၾကက္သြန္ျဖဴ ထည္႔ျပီ ပုဇြန္၊ ဂုံးတုိ႔ကို တလွည္႔စီ အေရာင္ရေအာင္ ၁မိနစ္ခန္႔ ေၾကာ္ေပးျပီ ျပန္ဖယ္ထားပါ။
+၅။ ခြက္တစ္ခုထဲတြင္ ေဆာ႔ရည္အတြက္ (ပဲငံျပာရည္၊ ငါးငံျပာရည္၊ ေရ(စားပြဲတင္ဇြန္း ၂ဇြန္း) တုိ႔ကုိ ေရာေမႊထားပါ။
+---------------------------------------
+ခ်က္ျပဳတ္နည္း
+၁။ ဆန္ျပားေခါက္ဆြဲေၾကာ္ စေၾကာ္လုိ႔ရပါျပီ။ ဒယ္ထဲ ဆီ(စားပြဲတင္ဇြန္း ၂ဇြန္း)ထည္႔ ဆီပူလာလွ်င္ ၾကက္သြန္ျဖဴ၊ ငရုတ္သီးအနွစ္တုိ႔ကို ထည္႔ေပးျပီ မိနစ္၀က္ခန္႔ ဆီပူထုိးပါ။
+၂။ ျပီမွ ပုဇြန္၊ ဂုံး၊ ေဆာ႔ရည္တုိ႔ကုိ ထည္႔ေပးပါ။
+၃။ ထုိ႔ေနာက္ ေခါက္ဆြဲ၊ ၾကက္အူေခ်ာင္း ထည္႔ျပီ သမေအာင္ ဆီျပန္သည္အထိ ၂မိနစ္ခန္႔ တည္ထားပါ။
+၄။ ေနာက္ဆံုးမွ ၾကက္သြန္ျမိတ္၊ ဟူစုိင္၊ ပဲပင္ေပါက္ ျဖဴးျပီ မီးပိတ္လိုက္ပါ။
+၅။ အရသာရွိေသာ ဆန္ျပားေခါက္ဆြဲေၾကာ္ကို ၾကက္ဥ၊ ပဲပင္ေပါက္၊ ေျမပဲ၊ သံပရာသီး၊ ငရုတ္သီးေလွာ္မွုန္႔တုိ႔ျဖင္႔ အရသာရွိစြာ တြဲဖက္သံုးေဆာင္ႏုိင္ပါျပီ…
+            "/>
+             
+             </LinearLayout>
+             
+              </ScrollView>
+    
+	
+</LinearLayout>

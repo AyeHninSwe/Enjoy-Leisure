@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#87CEEB" >
+        
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="\nTest your Knowledges!\nChallenge yourself...\n\n" />
+
+        <TextView
+            android:id="@+id/gq1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who is the founder of Facebook??\n" />
+
+        
+        <RadioGroup android:id="@+id/pgen_rdo1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left">
+                
+           <RadioButton
+               android:id="@+id/pgen_rdo1True"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               
+               android:text="Mark Zuckerberg" />
+
+          <RadioButton
+            android:id="@+id/pgen_rdo1False1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mark Ronson" />
+
+        <RadioButton
+            android:id="@+id/pgen_rdo1False2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mark Wilson" />
+            </RadioGroup>
+            
+        <TextView
+            android:id="@+id/gq2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\nWho is the founder of Apple Computer??\n" />
+
+        
+        <RadioGroup android:id="@+id/pgen_rdo2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left">
+                
+           <RadioButton
+               android:id="@+id/pgen_rdo2False1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+              
+               android:text=" Joson Steve " />
+
+          <RadioButton
+            android:id="@+id/pgen_rdo2True"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Steve Jobs" />
+
+        <RadioButton
+            android:id="@+id/pgen_rdo2False2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Steve Jones" />
+            </RadioGroup>
+       
+       <TextView
+            android:id="@+id/gq3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\nWho was JavaScript developed and When??\n" />
+
+        
+        <RadioGroup android:id="@+id/pgen_rdo3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left">
+                
+           <RadioButton
+               android:id="@+id/pgen_rdo3False1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               
+               android:text=" Ramus Lerdorf , 2000"
+  />
+
+          <RadioButton
+            android:id="@+id/pgen_rdo3True"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brendan Eich ,1995" />
+
+        <RadioButton
+            android:id="@+id/pgen_rdo3False2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guido Van Rossum , 1995" />
+            </RadioGroup>
+            
+        <TextView
+            android:id="@+id/gq4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\nWho is the president of Myanmar??\n" />
+
+        
+        <RadioGroup android:id="@+id/pgen_rdo4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left">
+                
+           <RadioButton
+               android:id="@+id/pgen_rdo4False1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               
+               android:text=" Daw Aung San Su Kyi  " />
+
+          <RadioButton
+            android:id="@+id/pgen_rdo4False2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="U Thein Sein" />
+
+        <RadioButton
+            android:id="@+id/pgen_rdo4True"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="U Htin Kyaw" />
+            </RadioGroup>
+       
+        <TextView
+            android:id="@+id/gq5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\nWho was developed the Java Programming Language and when??\n" />
+
+        
+        <RadioGroup android:id="@+id/pgen_rdo5"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left">
+                
+           <RadioButton
+               android:id="@+id/pgen_rdo5True"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+              
+               android:text=" James Gosling " />
+
+          <RadioButton
+            android:id="@+id/pgen_rdo5False1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bjarne Stroustrup" />
+
+        <RadioButton
+            android:id="@+id/pgen_rdo5False2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Larry Wall" />
+            </RadioGroup>
+       
+        <TextView
+            android:id="@+id/gq6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\nWhich country will host 2018 FIFA World Cup??\n" />
+
+        
+        <RadioGroup android:id="@+id/pgen_rdo6"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left">
+                
+           <RadioButton
+               android:id="@+id/pgen_rdo6False1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" Russia " />
+
+          <RadioButton
+            android:id="@+id/pgen_rdo6False2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qatar" />
+
+        <RadioButton
+            android:id="@+id/pgen_rdo6True"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brazil" />
+            </RadioGroup>
+       
+        <TextView
+            android:id="@+id/gq7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\nWhat is the capital of USA??\n" />
+
+        
+        <RadioGroup android:id="@+id/pgen_rdo7"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left">
+                
+           <RadioButton
+               android:id="@+id/pgen_rdo7False1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" NewYork" />
+
+          <RadioButton
+            android:id="@+id/pgen_rdo7True"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Washington,D.C" />
+
+        <RadioButton
+            android:id="@+id/pgen_rdo7False2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="California" />
+            </RadioGroup>
+       
+        <TextView
+            android:id="@+id/gq8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\nChemical formula for water is??\n" />
+
+        
+        <RadioGroup android:id="@+id/pgen_rdo8"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left">
+                
+           <RadioButton
+               android:id="@+id/pgen_rdo8False1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" NaAIO2" />
+
+          <RadioButton
+            android:id="@+id/pgen_rdo8True"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="H2O" />
+
+        <RadioButton
+            android:id="@+id/pgen_rdo8False2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CO2" />
+            </RadioGroup>
+       
+        <TextView
+            android:id="@+id/gq9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\nIndependence Day of Myanmar??\n" />
+
+        
+        <RadioGroup android:id="@+id/pgen_rdo9"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left">
+                
+           <RadioButton
+               android:id="@+id/pgen_rdo9False1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" February 12" />
+
+          <RadioButton
+            android:id="@+id/pgen_rdo9False2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="July 19" />
+
+        <RadioButton
+            android:id="@+id/pgen_rdo9True"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="January 4" />
+            </RadioGroup>
+
+        <TextView
+            android:id="@+id/gq10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\nWho wrote 'Romeo and Jiulier'?\n" />
+        
+        <RadioGroup android:id="@+id/pgen_rdo10"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left">
+                
+           <RadioButton
+               android:id="@+id/pgen_rdo10True"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" Williom Shakespeare" />
+
+          <RadioButton
+            android:id="@+id/pgen_rdo10False1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Charte Dickens" />
+
+        <RadioButton
+            android:id="@+id/pgen_rdo10False2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leo Talstoy" />
+
+       
+
+            </RadioGroup>
+            
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+            
+         <Button
+            android:id="@+id/btn_general_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Finish" />
+       
+        
+    </LinearLayout>
+
+</ScrollView>

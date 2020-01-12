@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	 <TextView
+        android:id="@+id/myanmar_food5_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="ရွမ္းပဲပုတ္ နွင္႔ ၾကက္သား အာလူးဟင္း" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+  
+    <Button
+        android:id="@+id/myanmar_food5_previous_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous" />
+
+    <Button
+        android:id="@+id/myanmar_food5_home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/myanmar_food5_next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+    
+     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/m5" />
+            
+             <TextView
+            android:id="@+id/myanmar_food5_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+             android:text="ရွမ္းရုိးရာ ဟင္းလ်ာျဖစ္တဲ႔ ရွမ္းပဲပုတ္ နွင္႔ ၾကက္သား အာလူးဟင္းပါ။ ခ်ဳိစိမ္႔တဲ႔ ၾကက္သား၊ အာလူး အရသာကို ရသာကို ရရွိမွာပါ။ ထမင္းျမိန္မယ္႔ ဟင္းလ်ာ တခြက္ပါ။ ခ်က္ရလည္း လြယ္တာမုိ႔ ခုပဲ ခ်က္ၾကည္႔ရေအာင္…
+----------------------------
+ပါ၀င္ပစၥည္းမ်ား
+ၾကက္ေပါင္ – ၄၀၀ ဂရမ္ (အတံုးလတ္မ်ား တံုးပါ)
+အာလူး – ၄လံုး (လက္မ၀က္အရြယ္ အတံုးမ်ား တံုးပါ)
+ခရမ္းခ်ဥ္သီး – ၃လံုး (အေစ႔ထုတ္ျပီ အရွည္ပါးပါးလွီးပါ)
+ရွမ္းပဲပုတ္ – ၂ခု (ငရုတ္ဆံုျဖင္႔ ညက္ေနေအာင္ ေထာင္းထားပါ)
+ၾကက္သြန္နီ – ၁လံုး (နွုတ္နွုတ္စင္းပါ)
+ဆႏြင္းမွုန္႔ – လက္ဖက္ရည္ဇြန္း ၁ဇြန္း
+ငရုတ္သီးမွုန္႔ – လဖက္ရည္ဇြန္း တ၀က္
+နံနံပင္ – လက္တဆုပ္စာ (ပါးပါးလွီးပါ)
+ၾကက္သြန္ျမိတ္ – စားပြဲတင္ဇြန္း ၂ဇြန္းစာ (ပါးပါးလွီးပါ)
+စပါးလင္ – ၂ခု (မညက္တညက္ေထာင္းျပီ ခ်ည္ထားပါ)
+ဆား – လက္ဖက္ရည္ဇြန္း ၁ဇြန္း
+ၾကက္သားမွုန္႔ – လက္ဖက္ရည္ဇြန္း ၁ဇြန္း
+ေရ – ၃ခြက္
+ဆီ – စားပြဲတင္ဇြန္း ၂ဇြန္း
+----------------------------
+ခ်က္ျပဳတ္နည္း
+၁။ အရင္ဆံုး ဇလံုထဲတြင္ (ၾကက္သား၊ ၾကက္သြန္နီ၊ ဆား၊ ၾကက္သားမွုန္႔၊ ဆႏြင္း၊ ငရုတ္သီးမွုန္႔၊ ခရမ္းခ်ဥ္သီး၊ ပဲပုတ္၊ စပါးလင္) တုိ႔ကို သမေအာင္ ေရာႏုယ္လုိက္ပါ။
+၂။ ျပီမွ ဒယ္ထဲ ဆီထည္႔ျပီ ဆီပူလွ်င္ ေရာႏုယ္ထားေသာ ၾကက္သား၊ ခရမ္းခ်ဥ္သီးအားလံုးကို လံုးျပီ ၂မိနစ္မွ ၃မိနစ္ထိ ခ်က္ေပးပါ။
+၃။ ထုိ႔ေနာက္ အာလူး၊ ေရ(၃ခြက္) ထည္႔ကာ အဖံုးအုပ္ျပီ ၁၅မိနစ္ခန္႔ ၾကက္သား နွင္႔ အာလူးႏူးသည္အထိ တည္ထားေပးပါ။
+၄။ အသားႏူလွ်င္ အရသာအေပါ႔အငံ႔ ျမည္းျပီ နံနံပင္၊ ၾကက္သြန္ျမိတ္မ်ား ျဖဴးကာ မီးပိတ္လုိက္ပါ။
+၅။ အရသာ ရွိျပီ အနံ႔ေမႊးေသာ ရွမ္းပဲပုတ္နွင္႔ ၾကက္သား အားလူးဟင္းကို သံုးေဆာင္ႏုိင္ပါျပီ…
+"/>
+            
+        </LinearLayout>
+
+       
+
+    </ScrollView>
+    
+</LinearLayout>

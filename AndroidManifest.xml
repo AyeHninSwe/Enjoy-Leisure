@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.enjoyleisure"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.enjoyleisure.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity  android:name=".Action_Film" android:label="Action_Film"></activity>
+          <activity  android:name=".Animation" android:label="Animation"></activity>
+         <activity android:name=".Asian_Food1" android:label="Asian_Food1"></activity>
+         <activity android:name=".Asian_Food2" android:label="Asian_Food2"></activity>
+         <activity android:name=".Asian_Food3" android:label="Asian_Food3"></activity>
+         <activity android:name=".Asian_Food4" android:label="Asian_Food4"></activity>
+         <activity android:name=".Asian_Food5" android:label="Asian_Food5"></activity>
+         <activity android:name=".Chinese_Food1" android:label="Chinese_Food1"></activity>
+         <activity android:name=".Chinese_Food2" android:label="Chinese_Food2"></activity>
+         <activity android:name=".Chinese_Food3" android:label="Chinese_Food3"></activity>
+         <activity android:name=".Chinese_Food4" android:label="Chinese_Food4"></activity>
+         <activity android:name=".Chinese_Food5" android:label="Chinese_Food5"></activity>
+         <activity android:name=".Cooking" android:label="Cook"></activity>
+         <activity android:name=".Education" android:label="Education"></activity>
+         <activity android:name=".Excited" android:label="Excit"></activity>
+        <activity  android:name=".Happy" android:label="Happy"></activity>
+        <activity  android:name=".Health" android:label="Health"></activity>
+         <activity  android:name=".Horror" android:label="Horror"></activity>
+        <activity  android:name=".K_Drama" android:label="K_Drama"></activity>
+        <activity android:name=".Korean_Food1" android:label="Korean1"></activity>
+        <activity android:name=".Korean_Food2" android:label="Korean2"></activity>
+        <activity android:name=".Korean_Food3" android:label="Korean3"></activity>
+        <activity android:name=".Korean_Food4" android:label="Korean4"></activity>
+        <activity android:name=".Korean_Food5" android:label="Korean5"></activity>
+        <activity  android:name=".Love" android:label="Love"></activity>
+       
+        <activity android:name=".Moive" android:label="Moive"></activity>
+        
+        <activity android:name=".Music" android:label="Music"></activity>
+        
+        <activity android:name=".Myanmar_Food1" android:label="Myanmar_Food1"></activity>
+        <activity android:name=".Myanmar_Food2" android:label="Myanmar_Food2"></activity>
+        <activity android:name=".Myanmar_Food3" android:label="Myanmar_Food3"></activity>
+        <activity android:name=".Myanmar_Food4" android:label="Myanmar_Food4"></activity>         
+        <activity android:name=".Myanmar_Food5" android:label="Myanmar_Food5"></activity>
+        <activity android:name=".Myanmar_Food6" android:label="Myanmar_Food6"></activity>
+        <activity android:name=".Myanmar_Food7" android:label="Myanmar_Food7"></activity>
+        <activity android:name=".Myanmar_Food8" android:label="Myanmar_Food8"></activity>
+        <activity android:name=".Myanmar_Food9" android:label="Myanmar_Food9"></activity>
+        <activity android:name=".Myanmar_Food10" android:label="Myanmar_Food10"></activity>
+        <activity  android:name=".Novel" android:label="Novel"></activity>
+        <activity  android:name=".Poem" android:label="Poem"></activity>
+        <activity  android:name=".Policy" android:label="Policy"></activity>
+        <activity  android:name=".Puzzle" android:label="Puzzle"></activity>
+        <activity android:name=".Read" android:label="Read"></activity>
+        <activity  android:name=".Sad" android:label="Sad"></activity>
+        
+        <activity android:name=".Thai_Food1" android:label="Thai1"></activity>
+        <activity android:name=".Thai_Food2" android:label="Thai2"></activity>
+        <activity android:name=".Thai_Food3" android:label="Thai3"></activity>
+        <activity android:name=".Thai_Food4" android:label="Thai4"></activity>
+        <activity android:name=".Thai_Food5" android:label="Thai5"></activity>
+         <activity android:name=".English" android:label="English"></activity>
+         <activity android:name=".Mathematics" android:label="Mathematics"></activity>
+          <activity android:name=".General" android:label="General"></activity> 
+          <activity android:name=".PMath1" android:label="PMath1"></activity> 
+           <activity android:name=".PMath2" android:label="PMath2"></activity> 
+           <activity android:name=".PMath3" android:label="PMath3"></activity> 
+           <activity android:name=".PMath4" android:label="PMath4"></activity> 
+            <activity android:name=".PMath5" android:label="PMath5"></activity> 
+            <activity android:name=".PMath6" android:label="PMath6"></activity> 
+			 <activity android:name=".About" android:label="About"></activity>
+			 <activity android:name=".Start_page" android:label="Start_page"></activity>         
+               
+      
+    </application>
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+</manifest>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     
+    
+    <TextView
+        android:id="@+id/korean_food1_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="\nကိုရီးယား ဖက္ထုပ္(မန္ဒူ)\n" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+  
+    
+    <Button
+        android:id="@+id/korean_food1_home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/korean_food1_next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+    
+     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/k1" />
+            
+             <TextView
+            android:id="@+id/korean_food1_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="ပါ၀င္ပစၥည္းမ်ား [Ingredients]
+ဖက္ထုပ္ရြက္ [wandon sheet]  ♦ ၄၀ရြက္ (အ၀ုိင္း)
+မွတ္ခ်က္ ။ ။ ဖက္ထုပ္ရြက္အ၀ုိင္းမရွိပါက ေလးေထာက္ဖက္ရြက္ကို အ၀ုိင္းပံု လွီးျဖတ္လိုက္ပါ။
+၀က္သား [pork]  ♦ ၂၀က်ပ္သား (နွုတ္နွုတ္စဥ္းပါ)
+မွတ္ခ်က္ ။ ။ အမဲသားစားသူမ်ား နွုတ္နွုတ္စဥ္းထားေသာ အမဲသား ၂ခ်ဳိး နွင္႔ ၀က္သား ၁ခ်ဳိး ေရာလွ်င္လည္း ရသည္။
+မွုိေျခာက္ [wild mushroom]  ♦ ၅ခု (ေရေႏြးျဖင္႔ ျပဳတ္ေပးျပီ နွုတ္နွုတ္စဥ္းထားပါ)
+ၾကက္သြန္ျမိတ္ [spring onion]  ♦ ၂စည္း (ပါးပါးလွီးထားပါ)
+တုိ႔ဟူး [tofu]  ♦ ၁ဗူး (၃၀၀ဂရမ္)
+ၾကက္သြန္နီ [onion]  ♦ တ၀က္ (နွုတ္နွုတ္စဥ္းထားပါ)
+ၾကက္သြန္ျဖဴ [garlic]  ♦ ၃မႊာ (ႏွုတ္နွုတ္စဥ္းထားပါ)
+ဆား [salt]
+သၾကား [sugar]
+ႏွမ္းဆီ [sesame oil]
+---------------------------------
+မန္ဒူ အစာသြပ္ရန္ ျပင္ဆင္နည္း [Mandoo Preparation Recipes]
+၁။ အရင္ဆံုး နွုတ္နွုတ္စဥ္းထားေသာ ၀က္သားမ်ားကို ဆား(လက္ဖက္ရည္ဇြန္း ၁ဇြန္း)၊ နွမ္းဆီ(စားပြဲတင္ဇြန္း ၁ဇြန္း)၊ ငရုတ္ေကာင္းမွုန္႔ (လက္ဖက္ရည္ဇြန္း တ၀က္) တုိ႔ျဖင္႔ သမေအာင္ လက္ျဖင္႔ ေရာနုယ္လုိက္ပါ။ နုယ္ထားေသာ ၀က္သားမ်ားကို ပန္းကန္ျပားတစ္ခုေပၚ ထည္႔ထားပါ။
+၂။ ျပီလွ်င္ ပါးပါးလွီးထားေသာ ၾကက္သြန္ျမိတ္ကို ဆီ(စားပြဲတင္ဇြန္း ၁ဇြန္း)ျဖင္႔ ေရာေမႊျပီ ၀က္သားထည္႔ထားေသာ ေဘးတြင္ ပံုထားလုိက္ပါ။
+၃။ ထုိ႔ေနာက္ ျပဳတ္ထားေသာ မွုိမ်ားကို အရည္ညွစ္ျပီ နွုတ္နွုတ္စဥ္းေပးျပီ ပဲငံျပာရည္(လက္ဖက္ရည္ဇြန္း ၁ဇြန္း)၊ သၾကား(လက္ဖက္ရည္ဇြန္း ၁ဇြန္း)၊ နွမ္းဆီ(လက္ဖက္ရည္ဇြန္း ၂ဇြန္း) တုိ႔ျဖင္႔ ေရာနုယ္ထား၍ ပန္းကန္ျပားထဲ ထည္႔ေပးပါ။
+၄။ တို႔ဟူးကို ေရစစ္ျပီ နွုတ္နွုတ္စဥ္းလုိက္ပါ။ ေရမရွိေတာ႔မွ ဆားအနည္းငယ္၊ နွမ္းဆီအနည္းငယ္ျဖင္႔ ေရာနုယ္ကာ ပန္းကန္ျပားထဲသို႔ ထည္႔ထားလိုက္ပါ။
+၅။ ေနာက္ဆံုးမွ ပန္းကန္ျပားထဲသို႔ ၾကက္သြန္ျဖဴ၊ ၾကက္သြန္နီမ်ားထည္႔ျပီ ပါ၀င္ပစၥည္းအားလံုးကို သမေအာင္ လက္ျဖင္႔ ေရာနုယ္လိုက္ပါ။
+၆။ အစာသြပ္ရန္ ျပင္ဆင္ျပီလွ်င္ မန္ဒူ စလုပ္ပါေတာ႔မည္။
+---------------------------------
+မန္ဒူ လုပ္နည္း [Mandoo Recipes]
+၁။ မန္ဒူ ဖက္ရြက္ တစ္ရြက္ကို ယူ၍ နုယ္ထားေသာ အစာ(စားပြဲတင္ဇြန္း ၁ဇြန္း)ကို အလယ္တြင္ ထည္႔လုိက္ပါ။
+၂။ ျပီလွ်င္ ဖက္ရြက္ ေဘးနွုတ္ခမ္းသားမ်ားကို ေရအနည္းငယ္စီ စြတ္လိုက္ပါ။
+၃။ ထုိ႔ေနာက္ ဖက္ရြက္ကို တ၀က္ ေခါက္လုိက္ျပီ ပံုတြပါသည္႔အတုိင္း ပံုေဖာ္သြားပါ။
+၄။ ထုိ႔နည္းအတုိင္း က်န္ဖက္ထုပ္မ်ားကို ထုပ္သြားေပးပါ။ ထုပ္ျပီလွ်င္ မန္ထုိတ၀က္ကို ပလတ္စတစ္အၾကည္ အုပ္ျပီ ေရခဲေသတၱာထဲမွာ ထည္႔သိမ္းေပးထားပါ။ က်န္တ၀က္ကို ေၾကာ္ပါမည္။
+မွတ္ခ်က္။ ။ ေရခဲေသတၱာထဲတြင္ သိမ္းထားတဲ႔ မန္ထုိမ်ားကို မေၾကာ္မွီ ၁နာရီခန္႔ အခန္းအပူခ်ိန္မွာ ျပန္ထားေပးထားပါ။
+၅။ ဒယ္ထဲသုိ႔ ဟင္းရြက္ဆီ(စားပြဲတင္ဇြန္း ၄ဇြန္း) ခန္႔ထည္႔ျပီ မီးအသင္႔တင္႔ျဖင္႔ တဖက္ကို ၁မိနစ္နွုန္းျဖင္႔ အဖံုးအုပ္၍ ၂မိနစ္ မွ ၃မိနစ္ခန္႔ ေၾကာ္ေပးပါ။
+၆။ ဖက္ထုပ္မ်ား အညိွေရာင္သန္းလာလွ်င္ ေရ(စားပြဲတင္ဇြန္း ၂ဇြန္း)ခန္႔ ထည္႔ျပီ အဖံုးျပန္အုပ္ျပီမွ ခ်ေပးပါ။
+ရ။ မန္ဒူမ်ား ရျပီဆုိလွ်င္ ပန္းကန္ျပားထဲသုိ႔ ေျပာင္းထည္႔၍ ကင္ခ်ီ(သို႔) ေဆာ႔ျဖင္႔ တြဲဖက္သံုးေဆာင္နုိင္ပါျပီ…
+Tips: ေဆာ႔လုပ္နည္းမွာ ဗီနီကာ နွင္႔ ပဲငံျပာရည္အၾကည္ကို ဆတူေရာေမႊလိုက္ပါ။
+"/>
+            
+        </LinearLayout>
+
+       
+
+    </ScrollView>
+
+</LinearLayout>

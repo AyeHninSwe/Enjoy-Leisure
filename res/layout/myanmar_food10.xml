@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <TextView
+        android:id="@+id/myanmar_food10_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="\n၀က္သား ပုံးရည္ၾကီးခ်က္\n" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+  
+    <Button
+        android:id="@+id/myanmar_food10_previous_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous" />
+
+    <Button
+        android:id="@+id/myanmar_food10_home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    
+    
+     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+             <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/m10" />
+            
+             <TextView
+            android:id="@+id/myanmar_food10_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+             android:text="ပါ၀င္ပစၥည္းမ်ား
+၀က္သား ၃ထပ္သား – ၄၀၀ ဂရမ္
+ၾကက္သြန္နီ – ၂လံုး (ႏွုတ္နွုတ္စဥ္းပါ)
+ၾကက္သြန္ျဖဴ – ၂မႊာ (နွုတ္နွုတ္စဥ္းပါ)
+ဂ်င္း – လက္ဖက္ရည္ဇြန္း တ၀က္ (နွုတ္နွုတ္စဥ္းပါ)
+ငရုတ္သီးစိမ္း – ၂ေထာင္႔ (ထက္ျခမ္းျခမ္းထားပါ)
+ပဲငံျပာရည္(အေနာက္) – စားပြဲတင္ဇြန္း ၂ဇြန္း
+ဆား – လက္ဖက္ရည္ဇြန္း ၁ဇြန္း
+ၾကက္သားမွုန္႔ – လက္ဖက္ရည္ဇြန္း တ၀က္
+သၾကား – စားပြဲတင္ဇြန္း တ၀က္
+ပုံးရည္ၾကီး – ၁ထုပ္
+-----------------------
+ခ်က္ျပဳတ္နည္း
+၁။ ၀က္သားကို (ဆား၊ ၾကက္သားမွုန္႔၊ ပဲငံျပာရည္၊ သၾကား) တုိ႔ျဖင္႔ သမေအာင္ ေရာနုယ္ျပီ ေရခဲေသတၱာ ေအာက္ထပ္တြင္ ၂နာရီခန္႔ နုပ္ထားေပးပါ။
+၂။ ျပီမွ အိုးတစ္အုိးထဲတြင္ ေရကို ၀က္သံုးထပ္သားျမဳပ္ သည္အထိထည္႔ မီးျပင္းျပင္း ျဖင္႔တည္ထားေပးပါ။ ၀က္သား နူသည္အထိ ၃ၾကိမ္ခန္႔ ေရထပ္ထည္႔ျပီး တည္ေပးပါ
+၃။ ၀က္သံုးထပ္သားနူးအိလာျပီး ေရခန္း လာျပီဆိုလွ်င္ ၀က္သားကို အေနေတာ္ အတံုးေလးမ်ား တံုးေပးပါ။
+၄။ ထုိ႔ေနာက္ ဒယ္ထဲ ဆီ(စားပြဲတင္ဇြန္း ၂ဇြန္း) ထည္႔ျပီ ၾကက္သြန္ျဖဴ၊ ၾကက္သြန္နီ၊ ဂ်င္း၊ ငရုတ္သီးစိမ္း တုိ႔ကို ဆီသပ္ေပးပါ။
+၅။ ျပီေနာက္ ၀က္သားမ်ား၊ ပုံးရည္ၾကီး၊ ေရ(ခြက္တ၀က္)တုိ႔ကို ထည္႔ျပီ သမေအာင္ ေရာေမႊလုိက္ပါ။
+၆။ ျပီမွ အရသာအတြက္ ဆား(လက္ဖက္ရည္ဇြန္း တ၀က္)၊ ၾကက္သားမွုန္႔(လက္ဖက္ရည္ဇြန္း ၃ပံု၁ပံု) တုိ႔ကုိ ထည္႔ပါ။
+ရ။ ဆီျပန္လွ်င္ အပၚမွ ေရွာက္ရြက္ေလးအုပ္ျပီ အရသာရွိေသာ ၀က္သား ပုံးရည္ၾကီးခ်က္ကို ထမင္းနဲ႔ သံုးေဆာင္လုိ႔ ရပါျပီ…
+"/>
+            
+        </LinearLayout>
+
+       
+
+    </ScrollView>
+
+</LinearLayout>

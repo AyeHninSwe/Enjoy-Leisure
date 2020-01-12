@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+     <TextView
+        android:id="@+id/chinese_food2_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="\nတရုတ္စတုိင္ ထမင္းေပါင္း\n" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+  
+    <Button
+        android:id="@+id/chinese_food2_previous_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous" />
+
+    <Button
+        android:id="@+id/chinese_food2_home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/chinese_food2_next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+    
+     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/c2" />
+            
+             <TextView
+            android:id="@+id/chinese_food2_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+             android:text="ပါ၀င္ေသာပစၥည္းမ်ား
+၁။ ခ်က္ျပီးသားထမင္း (ဆန္၁လံုး)
+၂။ ၾကက္ရင္ဗံုသား – ၁၀က်ပ္သား (အပါး ေစာင္းလွွီးပါ)
+၃။ ၾကက္အသဲျမစ္ – ၂စံု (အပါး ေစာင္းလွွီးပါ) (optional)
+၄။ ငါးဖယ္လံုး – ၅လံုး (Market မ်ားတြင္၀ယ္နုိင္သည္) (optional)
+၅။ မုန္လာဥနီ – ၅က်ပ္သား (အပါး ေစာင္းလွွီးပါ)
+၆။ ေျပာင္းဖူး အေသး – ၅က်ပ္သား (အပါး ေစာင္းလွွီးပါ)
+၇။ ဘိုစားပဲ – ၅က်ပ္သား (အပါး ေစာင္းလွွီးပါ)
+၈။ မွုိ- ၅က်ပ္သား  (အပါး ေစာင္းလွွီးပါ)
+၉။ ငံုးဥ – ၅လံုး ( ျပဳတ္ျပီးသား)
+၁၀။ မွ်စ္ – ၂ခု (အရွည္ပါးပါးလွီးပါ)
+၁၀။ ခရုဆီ – စားပြဲတင္ဇြန္း ၁ဇြန္း
+၁၁။ ၾကက္ျပဳတ္ရည္ (သို႔) ေရ – ၄ခြက္
+၁၂။  ဆား – လက္ဖက္ရည္ဇြန္း ၂ ဇြန္း
+၁၃။ ၾကက္သားမွုန႔္ – လက္ဖက္ရည္ဇြန္း ၂ ဇြန္း
+၁၄။ သၾကား – လက္ဖက္ရည္ဇြန္း ၂ ဇြန္း
+၁၅။ ခရမ္းခ်ဥ္သီး – ၂လံုး (အေစ႔ထုတ္ ၈စိပ္စိပ္ပါ)
+၁၆။ ၾကက္သြန္ျဖဴ – ၂မြွာ (ေထာင္းပါ)
+၁၇။ ၾကက္သြန္နီ – တ၀က္ (ေထာင္းပါ)
+----------------------------------
+ခ်က္ျပဳတ္နည္း
+၁။ ၾကက္သားကို ဆား (လက္ဖက္ရည္ဇြန္း တ၀က္)၊ ေကာ္မွုန္႔ (စားပြဲတင္ဇြန္း ၁ဇြန္း) ထည္႔နုယ္ေပးပါ။
+၂။ ထို႔ေနာက္  ဒယ္ (Non-Stick pan) ထဲသို႔  ဆီဆီမ်ားမ်ားထည္႔ကာ  ၾကက္သားကို အညွိေရာင္သန္းလာေအာင္ မီးအသင္႔တင္႔ျဖင္႔ ေၾကာ္ေပးပါ။ ၾကက္သားမ်ားကို ဇကာျဖင္႔ ဆီစစ္ျပီး ပန္းကန္ျပားတစ္ခုထဲ ထည္႔ထားေပးပါ။
+၃။ ဒယ္ထဲ ဆီ (စားပြဲတင္ဇြန္း ၄ ဇြန္း) ထည္႔၊ ဆီပူလာလွ်င္ ေထာင္းထားေသာ ၾကက္သြန္ျဖဴ (၂မြွာ)၊ ၾကက္သြန္နီ တ၀က္ ထည္႔ အညွိေရာင္ သန္းလာသည္ အထိ ဆီပူထိုးေပးပါ။
+၄။ ျပီးလွ်င္ ငါးဖယ္လံုး၊ ၾကက္အသဲအျမစ္၊ ပါ၀င္ေသာ ဟင္းသီးဟင္းရြက္မ်ားကို ၁မိနစ္ခန္႔ ေၾကာ္ေပးပါ။ ၾကက္ျပဳတ္ရည္ (သို႔) ေရကို ထည္႔ျပီး ေမြွေပးပါ။
+၅။ ထို႔ေနာက္ ေၾကာ္ထားေသာ ၾကက္သား၊ ငံုးဥ၊ ခရုဆီ၊ ဆား၊ ၾကက္သားမွုန္႔၊ ထည္႔ကာ ဟင္းရြက္မ်ား နူးလာသည္ အထိ မီးျပင္းျပင္းျဖင္႔ တည္ထားပါ။ ျပီးလွ်င္ အေပါ႔အငံ ျမည္းၾကည္႔ပါ။
+၅။ အေပါ႔အငံ အေနေတာ္ပါက ပံုတြင္ပါသည္႔အတုိင္း မီးျပင္းျပင္းျဖင္႔ ေရကို မ်ားမ်ားအေနထားတြင္  ေဖ်ာ္ထားေသာ ေကာ္ရည္ကုိ ထည္႔ ေမြွေပးပါ။
+မွတ္ခ်က္။ ။ ေကာ္ရည္သည္ မပ်စ္ မက်ဲ အေနထားတြင္ ရွိေနရမည္။ ေကာ္ရည္ အရမ္းပ်စ္သြားလွ်င္ ေရအနည္းငယ္ ထပ္ထည္႔ေပးပါ။ ေကာ္ရည္ က်ဲေနလွ်င္ ေကာ္မွုန္႔အနည္းငယ္ ေဖ်ာ္ကာ ထည္႔ေပးပါ။
+၆။ ထုိ႔ေနာက္ ထမင္းပူပူကို ပန္းကန္လံုးထဲထည္႔ ကာ ထမင္းစားပန္းကန္ျပားထဲသို႔ ေမွာက္ထည္႔ေပးပါ။ ျပီးလွ်င္ ေၾကာ္ထားေသာ ဟင္းရြက္မ်ားကို ထမင္းေပၚသို႔ ေလာင္းေပးပါ။
+ရ။ ပူပူေႏြးေႏြးနဲ႔ ထမင္းေပါင္းကို အဆင္႔သင္႔ စားသံုးနုိင္ပါျပီ။
+"/>
+            
+        </LinearLayout>
+
+       
+
+    </ScrollView>
+
+</LinearLayout>

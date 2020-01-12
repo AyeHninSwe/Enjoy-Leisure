@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+     <TextView
+        android:id="@+id/korean_food5_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="\nကိုရီးယားစတိုင္ Curry Rice\n" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+  
+    <Button
+        android:id="@+id/korean_food5_previous_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous" />
+
+    <Button
+        android:id="@+id/korean_food5_home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    
+    
+     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+               <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/k5" />
+            
+             <TextView
+            android:id="@+id/korean_food5_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+             android:text="ပါဝင္ပစၥည္းမ်ား
+ကိုရီးယား Curry Powder - ၆ဇြန္း (စားပြဲတင္ဇြန္း)
+ၾကက္ရင္ပံုသား - တစ္ခု(၁၂၀ ဂရမ္) (ေလးေထာင့္ပံု ခပ္ေသးေသးလွီးထားပါ)
+ၾကက္သြန္နီ - ၁ လံုး (ေလးေထာင့္ပံု ခပ္ေသးေသးလွီးထားပါ)
+အာလူး - ၁ လံုး (ေလးေထာင့္ပံု ခပ္ေသးေသးလွီးထားပါ)
+မုန္လာဥနီ - လက္ေလးလံုးခန္႔ (ေလးေထာင့္ပံု ခပ္ေသးေသးလွီးထားပါ)
+ပဲစိမ္းလံုး - ၃ဇြန္း(စားပြဲတင္ဇြန္း)
+ပန္းေဂၚဘီစိမ္း - (အနည္းငယ္)
+ဆား+င႐ုပ္ေကာင္းမႈန္႔ - (အနည္းငယ္)
+ပထမဆံုးပါဝင္ပစၥည္းမ်ား ျဖစ္ၾကေသာ (ၾကက္ရင္ပံုသား +ၾကက္သြန္နီ +အာလူး+မုန္လာဥနီ)တို႔ အားလံုးကို ေလးေထာင့္ပံု ခပ္ေသးေသး အရြယ္အသင့္ လွီးထားပါ ။
+ဒယ္အိုးတစ္ခုထဲသို႔ ဆီ အနည္းငယ္မ်ွ ထည့္၍ ၾကက္သားတံုးမ်ား ထည့္ေၾကာ္ပါ ။ ၿပီးေနာက္ အာလူး ၊ မုန္လာဥနီ ၊ ၾကက္သြန္နီ ထည့္ပါ ။
+ဆား ႏွင့္ င႐ုပ္ေကာင္းမႈန္႔ အနည္းငယ္ ထည့္ၿပီး အနံ႔ေမႊးလာသည္ အထိ ေမႊေပးပါ ။
+ပဲစိမ္းလံုးေလးမ်ား ၊ ပန္းေဂၚဘီစိမ္း အနည္းငယ္ ထည့္ကာ ၅ မိနစ္ခန္႔ ထပ္တည္ ထားကာ အရည္ အနည္းငယ္ ပ်စ္လာပါက ထမင္းျဖဴ ေပၚသို႔ ေလာင္းၿပီး အသင့္ စားသံုးႏိုင္ပါသည္ 
+"/>
+            
+        </LinearLayout>
+
+       
+
+    </ScrollView>
+
+</LinearLayout>

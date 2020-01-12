@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#87CEEB"
+    tools:context=".MainActivity" >
+
+   
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#87CEEB"
+        android:background="#ffffff"
+        android:text="\nEnjoy your leisure!!!\nPick one up\\^O^/\n" />
+
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+		 />
+     
+    <Button
+        android:id="@+id/movie_btn"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        
+        android:text="Movie Time > > > " />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+		 />
+  
+
+    <Button
+        android:id="@+id/read_btn"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Reading Time > > > " />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+		 />
+  
+
+    <Button
+        android:id="@+id/cook_btn"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cooking Time > > > " />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+		 />
+  
+
+    <Button
+        android:id="@+id/puzzle_btn"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Puzzle Time > > > " />
+    
+	  <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+		 />
+
+	  <Button
+	      android:id="@+id/about_btn"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="About us" />
+    
+</LinearLayout>
+
+<!-- android:background="#D3D3D3" -->

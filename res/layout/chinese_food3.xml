@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <TextView
+        android:id="@+id/chinese_food3_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="\nဘဲကင္ ႏွင္႔ တရုတ္စတုိင္ ေခါက္ဆြဲျပဳတ္\n" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+  
+    <Button
+        android:id="@+id/chinese_food3_previous_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous" />
+
+    <Button
+        android:id="@+id/chinese_food3_home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/chinese_food3_next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+    
+     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/c3" />
+            
+             <TextView
+            android:id="@+id/chinese_food3_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+             android:text="ဘဲကင္ရန္ ပါ၀င္ပစၥည္းမ်ား
+    ဘဲရင္ဗံု၊ ေပါင္တြဲယွက္ – ၂ခု(အေရခြံပါ) (ရင္ဗံုသားကို အသား သက္သက္ဓားျဖင္႔ ႏြင္းထားပါ)
+    တရုတ္မဆလာ (Five-spice powder) – လက္ဖက္ရည္ဇြန္း ၁ဇြန္း
+    နွမ္းဆီ – စားပြဲတင္ဇြန္း ၁ဇြန္း
+    ပဲငံျပာရည္ အၾကည္ – စားပြဲတင္ဇြန္း ၃ဇြန္း
+    ပဲငံျပာရည္ အေနာက္ – စားပြဲတင္ဇြန္း ၁ဇြန္း
+    သၾကား – စားပြဲတင္ဇြန္း ၃ဇြန္း
+    ေရ – စားပြဲတင္ဇြန္း ၃ဇြန္း
+---------------------------------
+ေခါက္ဆြဲျပဳတ္ရန္ ပါ၀င္ပစၥည္းမ်ား
+    ၾကက္ျပဳတ္ရည္(သို႔) ေရ – ၁လီတာ
+    ၾကက္ဥေခါက္ဆြဲ(သို႔)Udon ေခါက္ဆြဲ – ၂၀၀ ဂရမ္ (ေရေႏြးျဖင္႔ ၅မိနစ္ခန္႔ျပဳတ္ေပး၍၊ ေရေအးျပန္စိမ္ျပီ ဇကာျဖင္႔ စစ္ထားပါ)
+    မွုိပြင္႔ေျခာက္ – ၄ခု (ေရေႏြးျဖင္႔ ျပဳတ္ျပီ ျပန္ဆယ္ထားပါ)
+    တရုတ္မုန္႔ညွင္းစိမ္း – ၁၀၀ဂရမ္ (၁လက္မ ပိုင္းျဖတ္ထားပါ)
+    ပဲပင္ေပါက္ – ၄၀ ဂရမ္ (အျမွီးေျခြျပီ ေရေဆးထားပါ)
+    နံနံပင္ – လက္တဆုတ္စာ (နွုတ္နွုတ္စဥ္းထားပါ)
+    ဆန္၀ိုင္ – စားပြဲတင္ဇြန္း ၁ဇြန္း
+    ပဲငံျပာရည္ အၾကည္ – စားပြဲတင္ဇြန္း ၄ဇြန္း
+    ဆန္ဗီနီကာ – စားပြဲတင္ဇြန္း ၁ဇြန္း
+    ဆား – စားပြဲတင္ဇြန္း ၁ဇြန္း
+    ၾကက္သားမွုန္႔ – စားပြဲတင္ဇြန္း ၁ဇြန္း
+    ငရုတ္ေကာင္းမွုန္႔ – လက္ဖက္ရည္ဇြန္း ၁ဇြန္း
+---------------------------------
+ဘဲကင္ကင္နည္း
+၁။ အရင္ဆံုး ေဇာက္ခြက္တစ္ခုထဲတြင္ ဘဲကင္ပါ၀င္ပစၥည္းမ်ားျဖစ္ေသာ (ဘဲရင္ဗံု၊ ေပါင္၊ တရုတ္မဆလာ၊ နွမ္းဆီ၊ ပဲငံျပာရည္ အၾကည္၊ ပဲငံျပာရည္ အေနာက္၊ သၾကား၊ ေရ) တုိ႔ကို သမေအာင္ ေရာနုယ္လုိက္ပါ။
+၂။ ေရခဲေသတၱာ ေအာက္ထပ္ ထဲထည္႔ျပီ ၁ညသိပ္ျပီ နုပ္ထားေပးပါ။
+၃။ ၁ညသိပ္ျပီမွ Oven ၂၀၀ ဒီဂရီ ျဖင္႔ မိနစ္ ၂၅-၃၀ခန္႔ အေပၚမီးေအာက္မီးျဖင္႔ ကင္ေပးပါ။
+၄။ ဘဲကင္ကို ဓားျဖင္႔ အေစာင္း ပါးပါးလွီးေပးပါ။
+---------------------------------
+ေခါက္ဆဲြျပဳတ္နည္း
+၁။ ဘဲကင္ရျပီဆုိလွ်င္ ဒယ္အုိးတစ္ခုထဲ ေရ၁လီတာ ထည္႔ျပီ ဆူေအာင္ တည္ထားပါ။
+၂။ ဆူလာလွ်င္ (ပဲငံျပာရည္၊ ဆန္၀ုိင္၊ ဆန္ဗီနီကာ၊ ဆား၊ ၾကက္သားမွုန္႔) တုိ႔ကို ထည္႔ျပီ ၁မိနစ္ခန္႔ တည္ထားပါ။
+၃။ ျပီမွ မွုိပြင္႔၊ ပဲပင္ေပါက္၊ မုန္႔ညွင္းစိမ္းတို႔ကို ထည္႔ျပီ စကၠန္႔ ၂၀ခန္႔ တည္ပါ။
+၄။ အရသာ အေနေတာ္လွ်င္ ျပဳတ္ထားျပီသား ငရုတ္ေကာင္းမွုန္႔ျဖဴးျပီ မီးပိတ္လိုက္ပါ။
+၅။ ေခါက္ဆြဲ တပြဲစာျပင္ရန္ ျပဳတ္ျပီသား ေခါက္ဆြဲကို ေဇာက္ခြက္တစ္ခုထဲထည္႔ျပီ အေပၚမွ ေခါက္ဆြဲျပဳတ္ရည္၊ ပဲပင္ေပါက္၊ မွုိ၊ မုန္႔ညွင္းစိမ္းတုိ႔ကို ေလာင္းထည္႔လုိက္ပါ။
+၆။ အေပၚမွ ဘဲကင္မ်ားကုိ တင္ျပီ အရသာရွိေသာ ဘဲကင္ေခါက္ဆြဲျပဳတ္ကို သံုးေဆာင္နုိင္ပါျပီ…
+"/>
+            
+        </LinearLayout>
+
+       
+
+    </ScrollView>
+
+</LinearLayout>

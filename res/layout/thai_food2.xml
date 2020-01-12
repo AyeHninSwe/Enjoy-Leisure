@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <TextView
+        android:id="@+id/thai_food2_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="\nထုိင္းစတုိင္ ျပည္ၾကီငါးသုတ္\n" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+  
+    <Button
+        android:id="@+id/thai_food2_previous_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous" />
+
+    <Button
+        android:id="@+id/thai_food2_home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/thai_food2_next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+    
+     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/t2" />
+            
+             <TextView
+            android:id="@+id/thai_food2_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+             android:text="ပါ၀င္ပစၥည္းမ်ား
+၁။ ျပည္ၾကီးငါး – ၂၀ က်ပ္သား
+၂။ ၾကက္သြန္နီ – ၂လံုး (ပါးပါးလွီးထားပါ)
+၃။ ခရမ္းခ်ဥ္သီး – ၂လံုး (အေစ႔ထုတ္ ပါးပါးအရွည္လွီးပါ)
+၄။ ငရုတ္သီးစိမ္း – ၂ေတာင္႔ (ပါးပါးလွီးပါ)
+၅။ သံပရာသီး – နွစ္စိပ္
+၆။ ၾကက္သြန္ျဖဴ – ၂မႊာ (ႏွုတ္နွုတ္စဥ္းထားပါ)
+ရ။ ေရွာက္ရြက္ – ၂ရြက္ (ပါးပါးလွီးပါ)
+၈။ နံနံပင္ – အနည္းငယ္ (ပါးပါးလွီးထားပါ)
+၉။ ငါးငံျပာရည္ – စားပြဲတင္ဇြန္း ၁ဇြန္း
+၁၀။ ဂ်င္း – လက္တဆစ္ (ပါးပါးလွီးပါ)
+၁၁။ ရွာလကာရည္ – စားပြဲတင္ဇြန္း ၁ဇြန္း
+---------------------------------------
+ျပင္ဆင္နည္း
+၁။ အရင္ဆံုး ျပည္ၾကီးငါးကို အညိွအခြ်ဲမ်ား သန္႔စင္ေပးပါ။ ျပီမွ ျပည္ၾကီးငါးကို ဓားျဖင္႔ ၾကက္ေျခခတ္ပံုေလးမ်ား မႊန္းေပးပါ။
+၂။ ထုိ႔ေနာက္ ေရပြက္ပြက္ဆူေနေသာ ဒယ္အုိးထဲသို႔ ဂ်င္း၊ ရွာလကာရည္(စားပဲြတင္ဇြန္း ၁ဇြန္း) တုိ႔ကုိ ထည္႔ျပီမွ ၾကက္ေျခခတ္ပံု မႊန္းထားေသာ ျပည္ၾကီးငါးမ်ားကို အနံ႔ေပ်ာက္ေအာင္ ထုိအုိးထဲသို႔ ထည္႔လိုက္ပါ။
+၃။ ျပီလွ်င္ ဇကာျဖင္႔ ျပည္ၾကီးငါးမ်ားကို ျပန္ဆယ္ထားပါ။
+၄။ ျပီေနာက္ ဒယ္ထဲသို႔ ဆီ(စားပြဲတင္ဇြန္း ၂ဇြန္း)ခန္႔ ထည္႔ျပီ ဆီပူလာလွ်င္ ၾကက္သြန္ျဖဴ ထည္႔ဆီသပ္ေပးပါ။
+၅။ ျပီမွ ငရုတ္သီးမွုန္႔(စားပြဲတင္ဇြန္း ၃ပံု၁ပံု)၊ ဆႏြင္းမုွန္႔(စားပြဲတင္ဇြန္း ၃ပံု၁ပံု) ထည္႔ျပီ မီးျပန္ပိတ္လိုက္ပါ။ ၾကက္သြန္ျဖဴ ဆီခ်က္မ်ားကို ခြက္တစ္ခုထဲ ျပန္ဖယ္ထားေပးပါ။
+---------------------------------------
+သုတ္နည္း
+၁။ ခုျပည္ၾကီးငါး သုတ္ပါေတာ႔မည္။ ဇလံုတစ္ခုထဲသို႔ (ျပည္႔ၾကီးငါး၊ ခရမ္းခ်ဥ္သီး၊ ၾကက္သြန္နီ၊ ၾကက္သြန္ျဖဴ ဆီခ်က္၊ ေရွာက္ရြက္၊ ငရုတ္သီး၊ ငါးငံျပာရည္၊ သံပရာရည္၊ နံနံပင္)တုိ႔ကို ေရာနုယ္လုိက္ပါ။
+၂။ ျပီမွ အရသာအေပါ႔အငံ႔ျမည္းျပီ ဆား၊ ၾကက္သားမွုန္႔တုိ႔ကို ထည္႔ေပးပါ။
+၃။ ခ်ဥ္စပ္ ျပည္ၾကီးငါးသုတ္ေလးကို ထမင္းနွင္႔ ျမိန္ရွပ္စြာ သံုးေဆာင္နုိင္ပါျပီ…
+             "/>
+             
+                  
+        </LinearLayout>
+
+       
+
+    </ScrollView>
+             
+
+</LinearLayout>

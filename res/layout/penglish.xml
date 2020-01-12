@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+         android:background="#87CEEB" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="\nTest your English skill!\nChallenge yourself...\n\n" />
+
+        <TextView
+            android:id="@+id/eq1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="I'm  afraid I  ----- used  
+ to  working in an  open-plan  office.\n"
+ />
+
+        
+        <RadioGroup android:id="@+id/peng_rdo1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left">
+                
+           <RadioButton
+               android:id="@+id/peng_rdo1True"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="haven't got" />
+
+          <RadioButton
+            	android:id="@+id/peng_rdo1False1"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="haven't ever" />
+
+        	<RadioButton
+           	 	android:id="@+id/peng_rdo1False2"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="haven't" />
+            </RadioGroup>
+            
+        <TextView
+            android:id="@+id/eq2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="\n\nI asked Jane about the accident,
+but she ---- a  word.\n" />
+
+        
+        <RadioGroup android:id="@+id/peng_rdo2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left">
+                
+           <RadioButton
+               android:id="@+id/peng_rdo2False1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" didn't use to " />
+
+          <RadioButton
+            android:id="@+id/peng_rdo2True"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wouldn't say" />
+
+        <RadioButton
+            android:id="@+id/peng_rdo2False2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="refused" />
+            </RadioGroup>
+       
+       <TextView
+            android:id="@+id/eq3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:textSize="20dp"
+            android:text="\n\nCan we the conference room?
+Sure,it ---- this morning.\n" />
+
+        
+        <RadioGroup android:id="@+id/peng_rdo3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left">
+                
+           <RadioButton
+               android:id="@+id/peng_rdo3False1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" isn't using"
+  />
+
+          <RadioButton
+            android:id="@+id/peng_rdo3True"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="isn't being used" />
+
+        <RadioButton
+            android:id="@+id/peng_rdo3False2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hasn't used" />
+            </RadioGroup>
+            
+        <TextView
+            android:id="@+id/eq4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:textSize="20dp"
+            android:text="\n\nYou are taking this very lightly,
+---- your mother is dead serious.\n" />
+
+        
+        <RadioGroup android:id="@+id/peng_rdo4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           
+           android:layout_gravity="left">
+                
+           <RadioButton
+               android:id="@+id/peng_rdo4False1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="as" />
+
+          <RadioButton
+            android:id="@+id/peng_rdo4False2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="since" />
+
+        <RadioButton
+            android:id="@+id/peng_rdo4True"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="whereas" />
+            </RadioGroup>
+       
+        <TextView
+            android:id="@+id/eq5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:textSize="20dp"
+            android:text="\n\n----- the people I interviewed, 
+one in then said they had already
+lied to someone that day.\n"
+/>
+        
+        <RadioGroup android:id="@+id/peng_rdo5"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left">
+                
+           <RadioButton
+               android:id="@+id/peng_rdo5True"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" Among" />
+
+          <RadioButton
+            android:id="@+id/peng_rdo5False1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Between" />
+
+        <RadioButton
+            android:id="@+id/peng_rdo5False2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Around " />
+            </RadioGroup>
+       
+        <TextView
+            android:id="@+id/eq6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:textSize="20dp"
+            android:text="\n\nWe ---- watch Tom and Jerry
+with my brother every evening
+when we were children.\n" />
+
+        
+        <RadioGroup android:id="@+id/peng_rdo6"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left">
+                
+           <RadioButton
+               android:id="@+id/peng_rdo6False1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" had " />
+
+          <RadioButton
+            android:id="@+id/peng_rdo6False2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" were used to " />
+
+        <RadioButton
+            android:id="@+id/peng_rdo6True"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" would " />
+            </RadioGroup>
+       
+        <TextView
+            android:id="@+id/eq7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:textSize="20dp"
+            android:text="\n\nThe poor are not _________
+as full member of society.\n" />
+
+        
+        <RadioGroup android:id="@+id/peng_rdo7"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left">
+                
+           <RadioButton
+               android:id="@+id/peng_rdo7False1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" thought to be " />
+
+          <RadioButton
+            android:id="@+id/peng_rdo7True"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" regarded " />
+
+        <RadioButton
+            android:id="@+id/peng_rdo7False2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Considering " />
+            </RadioGroup>
+       
+        <TextView
+            android:id="@+id/eq8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:textSize="20dp"
+            android:text="\n\nMy teacher had difficultly _______
+my handwriting.\n" />
+
+        
+        <RadioGroup android:id="@+id/peng_rdo8"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left">
+                
+           <RadioButton
+               android:id="@+id/peng_rdo8False1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" to read " />
+
+          <RadioButton
+            android:id="@+id/peng_rdo8True"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" reading " />
+
+        <RadioButton
+            android:id="@+id/peng_rdo8False2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="for reading " />
+            </RadioGroup>
+       
+        <TextView
+            android:id="@+id/eq9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:textSize="20dp"
+            android:text="\n\nWhich is the proper grammer?\n" />
+
+        
+        <RadioGroup android:id="@+id/peng_rdo9"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left">
+                
+           <RadioButton
+               android:id="@+id/peng_rdo9False1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" May I come with you!" />
+
+          <RadioButton
+            android:id="@+id/peng_rdo9False2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="May I come with you." />
+
+        <RadioButton
+            android:id="@+id/peng_rdo9True"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="May I come with you?" />
+            </RadioGroup>
+
+        <TextView
+            android:id="@+id/eq10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:textSize="20dp"
+            android:text="\n\nWhich is the subject 
+in the following sentence ?\n" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:textSize="20dp"
+            android:text="--She is a quick thinker
+when it comes to babies.--\n" />
+        
+        <RadioGroup android:id="@+id/peng_rdo10"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left">
+                
+           <RadioButton
+               android:id="@+id/peng_rdo10True"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" She" />
+
+          <RadioButton
+            android:id="@+id/peng_rdo10False1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Babies" />
+
+        <RadioButton
+            android:id="@+id/peng_rdo10False2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thinker" />
+
+        
+
+            </RadioGroup>
+            
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+            
+       <Button
+            android:id="@+id/btn_eng_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Finish" />
+        
+    </LinearLayout>
+    
+
+</ScrollView>

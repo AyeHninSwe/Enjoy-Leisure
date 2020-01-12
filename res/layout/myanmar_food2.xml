@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+     <TextView
+        android:id="@+id/myanmar_food2_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="\nငါးဖယ္သုတ္\n" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+  
+    <Button
+        android:id="@+id/myanmar_food2_previous_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous" />
+
+    <Button
+        android:id="@+id/myanmar_food2_home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/myanmar_food2_next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+    
+     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/m2" />
+            
+             <TextView
+            android:id="@+id/myanmar_food2_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+             android:text="ငါးဖယ္ေၾကာ္ရန္ ပါ၀င္ေသာပစၥည္းမ်ား
+၁။ ငါးဖယ္ – ၃၀က်ပ္သား (ေထာင္းျပီးသား)
+၂။ ၾကက္သြန္ျမိတ္ – ၁စည္း (ပါးပါးလွီးပါ)
+၃။ ဂ်ဳံ – စားပြဲတင္ဇြန္း ၁ဇြန္း
+၄။ ဂ်င္း – စားပြဲတင္ဇြန္း ၃ပံု၁ပံု (နွုတ္နွုတ္ဆင္းပါ)
+၅။ ၾကက္ဥ(အကာ) – ၁လံုး
+၆။ ဆား – လက္ဖက္ရည္ဇြန္း ၁ဇြန္း
+ရ။ ၾကက္သားမွဳန္႔ – လက္ဖက္ရည္ဇြန္း တ၀က္
+----------------------------
+ငါးဖယ္သုတ္ရန္ ပါ၀င္ေသာပစၥည္းမ်ား
+၁။ ခရမ္းခ်ဥ္သီး – ၂လံုး (အေစ႔ထုတ္ ၈စိပ္စိပ္ပါ)
+၂။ သံပရာသီး – ၂လံုး (အေစ႔ထုတ္ အရည္ညစ္ပါ)
+၃။ ငရုတ္သီးဆီသပ္ – စားပြဲတင္ဇြန္း ၄ဇြန္း (ဒယ္ထဲ ဆီထည္႔၊ ဆီပူလွ်င္ ငရုတ္သီးမွဳန္႔ ၃ဇြန္းထည္႔)
+၄။ ပဲငံျပာရည္ အၾကည္ – စားပြဲတင္ဇြန္း ၁ဇြန္း
+၅။ ၾကက္သြန္နီ – ၃လံုး (ပါးပါးလွီးပါ)
+၆။ နံနံပင္ – ၁စည္း (ပါးပါးလွီးပါ)
+----------------------------
+ခ်က္ျပဳတ္နည္း
+၁။ ငါးဖယ္ေၾကာ္ရန္ ပါ၀င္ေသာပစၥည္မ်ား ျဖစ္ေသာ (ငါးဖယ္၊ ဆား၊ ၾကက္သားမဳွန္႔၊ ဂ်ဳံ၊ ဂ်င္း၊ ၾကက္ဥအကာ၊ ၾကက္သြန္ျမိတ္ ) အားလံုးကို ေဇာက္ပန္းကန္တစ္ခုထဲ သို႔ ထည္႔နုယ္လုိက္ပါ။
+၂။ ျပီးလွ်င္ ငါးဖယ္မ်ား မကပ္ေစရန္ လက္တြင္ ဆီသုတ္၍ နုယ္ထားေသာ ငါးဖယ္မ်ားကို အလံုးျပားေလးမ်ား လုပ္လိုက္ပါ။ (အရြယ္မၾကီးပါေစနွင္႔)
+၃။ ထုိ႔ေနာက္ ဒယ္ထဲ ဆီမ်ားမ်ားထည္႔ျပီး ငါးဖယ္လံုမ်ားကို ထည္႔ေၾကာ္ေပးျပီး ဇကာျဖင္႔ ပန္းကန္တစ္ခုထဲ ျပန္ဆယ္ထားေပးပါ။
+၄။ ျပီးလွ်င္ ေၾကာ္ထားေသာ ငါးဖယ္မ်ားကို ပါးပါးအေစာင္းလွီးလိုက္ပါ။
+၅။ ထုိ႔ေနာက္ ပန္းကန္လံုး တစ္ခုထဲသို႔ ငါးဖယ္သုတ္ရန္ ပါ၀င္ေသာပစၥည္းမ်ား ( ငါးဖယ္၊ ခရမ္းခဥ္သီး၊ ၾကက္သြန္နီ၊ ပဲငံျပာရည္၊ ငရုတ္သီးဆီသပ္၊ နံနံပင္၊ သံပရာရည္) အားလံုးကို ေရာနယ္လိုက္ပါ။
+၆။ အရသာအေပါ႔အငံ အေနေတာ္လွ်င္ ငါးဖယ္သုတ္ကို ထမင္းနွင္႔ ျမိန္ရွပ္စြာ စားသံုးနုိင္ပါျပီ။
+"/>
+            
+        </LinearLayout>
+
+       
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+   
+    
+    
+     <TextView
+        android:id="@+id/korean_food2_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="\nကိုရီးယား ထမင္းလိပ္ (ဂင္ေဘာ႔\n" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+  
+    <Button
+        android:id="@+id/korean_food2_previous_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous" />
+
+    <Button
+        android:id="@+id/korean_food2_home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/korean_food2_next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+    
+     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+             <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/k2" />
+            
+             <TextView
+            android:id="@+id/korean_food2_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+             android:text="ထမင္းအတြက္ ပါ၀င္ပစၥည္းမ်ား
+    ခ်က္ျပီသား ရွမ္းဆန္ [cooked sushi rice]      ♦ ဆန္ခ်ိန္ခြက္ ၂လံုး
+        မွတ္ခ်က္ ။ ။ ရွမ္းဆန္ မရွိပါက ရုိးရိုးဆန္ ၁ခ်ဳိး ၊ ေကာက္ညွင္းဆန္ ၁ခ်ဳိးကို ေရာ၍ ခ်က္နုိင္သည္။
+        နွမ္းဆီ [seasame oil]                               ♦ စားပြဲတင္ဇြန္း ၁ဇြန္း
+        ဆား [salt]                                              ♦ လက္ဖက္ရည္ဇြန္း ၁ဇြန္း
+        နွမ္း [seasame seed]                               ♦ စားပြဲတင္ဇြန္း ၂ဇြန္း
+        ေရညွိရြက္ [sea weed]                              ♦ ၄ရြက္
+    အစားသြပ္ရန္ ပါ၀င္ပစၥည္းမ်ား
+        မုန္လာဥနီ [carrot]                                   ♦ ၁ဥ (အရွည္ပါးပါးလွီးပါ)
+        ဟင္းနုႏြယ္ [spinach]                                ♦ လက္တဆုပ္စာ
+        Ham (or) ၀က္အူေခ်ာင္း(အစို)                    ♦ ၄ေခ်ာင္း (အရွည္ပါးပါးလွီးပါ)
+        ၾကက္ဥ [egg]                                          ♦ ၁လံုး (ခေလာက္ထားပါ)
+        သခြာသီး [cucumber]                               ♦ တ၀က္ (အခြံႏြာျပီ အေစ႔ထုတ္ အရွည္ပါးပါးလွီးပါ)
+        နွမ္းဆီ
+        သၾကား
+        ဆား
+        ပ်ားရည္
+        ပဲငံျပာရည္အေနာက္(အခ်ဳိ)
+---------------------------------------
+ျပင္ဆင္နည္း [Preparation Method]
+၁။ အရင္ဆံုး မုန္လာဥနီကို (ႏွမ္းဆီ(လက္ဖက္ရည္ဇြန္း ၁ဇြန္း)၊ ဆား(လက္ဖက္ရည္ဇြန္း ၃ပံု၁ပံု)၊ သၾကား(လက္ဖက္ရည္ဇြန္း ၃ပံု၁ပံု))တုိ႔ ထည္႔ျပီ ဆီနည္းနည္းျဖင္႔ ၁မိနစ္ခန္႔ ေၾကာ္ေပးပါ။
+၂။ ဟင္းနုႏြယ္ရြက္မ်ားကို ပြက္ပြက္ဆူေသာ အုိးထဲ ဆားအနည္းငယ္ ထည္႔၍ ျပဳတ္ျပီ ေရစစ္ထားပါ။ ျပီမွ နွမ္းဆီ(လက္ဖက္ရည္ဇြန္း ၁ဇြန္း)၊ သၾကား(လက္ဖက္ရည္ဇြန္း ၁ဇြန္း) တုိ႔ျဖင္႔ ေရာနုယ္ထားလုိက္ပါ။
+၃။ ၀က္အူေခ်ာင္းကိုအရင္ ဆီနဲ႔ေၾကာ္ျပီမွ ပ်ားရည္(စားပြဲတင္ဇြန္း တ၀က္)၊ ပဲငံျပာရည္(စားပြဲတင္ဇြန္း တ၀က္)တုိ႔ျဖင္႔ ေရာနုယ္ထားပါ။
+၄။ ၾကက္ဥကို ပါ၀င္ပစၥည္းမ်ားျဖစ္ေသာ (ဆား၊ သၾကား)အနည္းငယ္ျဖင္႔ ေရာခေလာက္၍ ဆီျဖင္႔ အ၀ုိင္းျပားေၾကာ္ကာ အရွည္ေလးမ်ား ျဖစ္ေအာင္ ဓား(သို႔)ကတ္ေၾကးျဖင္႔ လွီးထားေပးပါ။
+၅။ သခြာသီးကို (ဗီနီကာ(စားပြဲတင္ဇြန္း၁ဇြန္း)၊ သၾကား(လက္ဖက္ရည္ဇြန္း ၁ဇြန္း))တုိ႔ျဖင္႔ ေရာနယ္ျပီ နုပ္ထားပါ။
+၆။ ထုိ႔ေနာက္ အစားသြပ္ရန္ ပစၥည္းမ်ားျဖစ္ေသာ (မုန္လာဥနီ၊ ဟင္းနုႏြယ္၊ ၀က္အူေခ်ာင္း၊ ၾကက္ဥ၊ သခြာသီး)တုိ႔ကို ပန္းကန္တစ္ခုေပၚသို႔ ပံုတြင္ ပါသည္႔အတုိင္း ထည္႔ထားလုိက္ပါ။
+ရ။ ထမင္းက်က္ျပီဆိုလွ်င္ (နွမ္းဆီ၊ နွမ္း၊ ဆား) တုိ႔ျဖင္႔ အသာအယာ ေရာေမႊထားလုိက္ပါ။
+---------------------------------------
+ကိုရီးယား ထမင္းလိပ္လိပ္နည္း [Rice Roll Recipe]
+၁။ အရင္ဆံုး ၀ါးယင္းလိပ္ကို ခင္းျပီ အေပၚမွ ေရညိွရြက္ တစ္ရြက္ကို ခင္းလိုက္ပါ။
+၂။ ျပီးလွ်င္ နုယ္ထားေသာ ထမင္း(စားပြဲတင္ဇြန္း ၄ဇြန္း)ကို ပံုတြင္ ပါသည္႔အတုိင္း ေရညိွရြက္ေပၚတြင္ ထမင္းထည္႔လိုက္ပါ။
+၃။ ျပီေနာက္ မုန္လာဥနီ၊ သခြာသီး၊ ၾကက္ဥ၊ ၀က္အူေခ်ာင္း၊ ဟင္းနုႏြယ္ တုိ႔ကို ထမင္းေပၚတြင္ တင္လိုက္ပါ။
+၄။ ခုထမင္းလိပ္ စလိပ္ပါေတာ႔မည္။ ပံုတြင္ ပါသည္႔အတုိင္း အဆင္႔ဆင္႔ က်စ္က်စ္ေလး လိပ္ေပးပါ။
+၅။ ထမင္းလိပ္ရျပီဆိုလွ်င္ ထက္ေသာ ဓားကို ဆီအနည္းငယ္သုတ္ျပီ ၁၀ပုိင္းေလာက္ထိ ရေအာင္ ပိုင္းေပးပါ။
+၆။ အရသာရွိေသာ ကိုရီးယားထမင္းလိပ္ကို သံုးေဆာင္နုိင္ပါျပီ…
+---------------------------------------
+"/>
+            
+        </LinearLayout>
+
+       
+
+    </ScrollView>
+
+</LinearLayout>

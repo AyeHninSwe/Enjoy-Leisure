@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <TextView
+        android:id="@+id/myanmar_food7_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="ကခ်င္ ၾကက္သားေပါင္း" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+  
+    <Button
+        android:id="@+id/myanmar_food7_previous_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous" />
+
+    <Button
+        android:id="@+id/myanmar_food7_home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/myanmar_food7_next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+    
+     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+              <ImageView
+                 android:id="@+id/imageView1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="200dp"
+                 android:src="@drawable/m7" />
+            
+             <TextView
+            android:id="@+id/myanmar_food7_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+             android:text="အရသာစပ္စပ္ေလးနဲ႔ ကခ်င္ ၾကက္သားေပါင္းပါ။ ၾကက္သားကို ငရုတ္သီးပြနီ၊ ဂ်င္း၊ ၾကက္သြန္နီ အနည္းငယ္ ႏုပ္ထားျပီမွ ေပါင္းထားမုိ႔ သူအရသာက ၾကက္သားထဲ ျပန္စိမ္႔၀င္ျပီ စပ္စပ္ေလးနဲ႔ တမ်ဳိးစားလုိ႔ ေကာင္းပါတယ္။
+----------------------------
+ပါ၀င္ပစၥည္းမ်ား
+ၾကက္ေပါင္ – ၄၅၀ ဂရမ္ (အတံုးလတ္မ်ား တံုးပါ)
+ၾကက္သြန္ျဖဴ – ၅မႊာ (နွုတ္နွုတ္စဥ္းပါ)
+ၾကက္သြန္နီ – ၁လံုး (နွုတ္နွုတ္စဥ္းပါ)
+ဂ်င္း (သို႔) ဂ်င္းမွုန္႔ – စားပြဲတင္ဇြန္း ၁ဇြန္းစာ (ပါးပါးလွီးပါ)
+ငရုတ္သီးပြနီ – ၄ခု (ေရေႏြးနဲ႔ျပဳတ္ျပီ မညက္တညက္ေထာင္းထားပါ)
+ဆႏြင္းမွုန္႔ – လက္ဖက္ရည္ဇြန္း ၅ပံု၁ပံု
+ဆား – လက္ဖက္ရည္ဇြန္း ၃ပံု၂ပံု
+နံနံေစ႔မွုန္႔ – လက္ဖက္ရည္ဇြန္း ၁ဇြန္း
+ေရ (သုိ႔) ဆန္၀ုိင္ – စားပြဲတင္ဇြန္း ၂ဇြန္း
+ၾကက္သြန္ျမိတ္ – ၁ခု (ပါးပါးလွီးထားပါ)
+----------------------------
+ခ်က္ျပဳတ္နည္းမ်ား
+၁။ အရင္ဆံုး (ၾကက္သြန္ျဖဴ၊ ၾကက္သြန္နီ၊ ဂ်င္း၊ ငရုတ္သီးပြနီ(ေထာင္းျပီသား)၊ ဆႏြင္းမွုန္႔၊ နံနံေစ႔မွုန္႔၊ ေရ(သို႔) ဆန္၀ိုင္)တုိ႔ကို ၾကိတ္စက္ထဲထည္႔ျပီ သမေအာင္ ၾကိတ္ေပးပါ။
+၂။ ျပီလွ်င္ ၾကက္သားမ်ားျဖင္႔ ဆား၊ ၾကိတ္ထားသည္႔ ၾကက္သြန္ျဖဴ၊ ၾကက္သြန္နီ၊ ငရုတ္သီးပြတုိ႔ျဖင္႔ သမေအာင္ ေရာႏုယ္ျပီ ၁၀မိနစ္ခန္႔ ႏုပ္ထားပါ။
+၃။ ထုိ႔ေနာက္ ေပါင္းအုိးတြင္ ေရမ်ားမ်ားထည္႔ျပီ ၾကက္သားနူသည္အထိ မိနစ္၄၀ခန္႔ တည္ေပးပါ။
+၄။ ၾကက္သားေပါင္း က်က္ျပီဆုိလွ်င္ ၾကက္သားမ်ားကို ေပါင္း၍ ထြက္လာေသာ ၾကက္ေပါင္းရည္မ်ားျဖင္႔ ဒယ္ထဲ ေရခမ္းသည္အထိ ျပန္တည္ေပးပါ။
+၅။ ေနာက္ဆံုးမွ ၾကက္သြန္ျမိတ္ေလးမ်ား ျဖဴးျပီ ကခ်င္ ၾကက္သားေပါင္းကို သံုးေဆာင္လုိ႔ရပါျပီ….
+"/>
+
+           
+            
+        </LinearLayout>
+
+       
+
+    </ScrollView>
+
+</LinearLayout>

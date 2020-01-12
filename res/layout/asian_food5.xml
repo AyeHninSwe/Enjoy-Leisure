@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	 
+     <TextView
+        android:id="@+id/asian_food5_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="\nမေလးရွား ထမင္းေၾကာ္ (Nasi Goreng)\n" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+  
+    <Button
+        android:id="@+id/asian_food5_previous_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous" />
+
+    <Button
+        android:id="@+id/asian_food5_home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    
+    
+     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/a5" />
+            
+             <TextView
+            android:id="@+id/asian_food5_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+             android:text="Nasi Goreng ထမင္းေၾကာ္က မေလးရွား (သို႔) အင္ဒိုနီးရွား မွာ လူၾကိဳက္မ်ားတဲ႔ ခ်က္နည္းေလးပါ။ 
+----------------------------------
+မွတ္ခ်က္ ။     ။ပထမဆံုးအေနနဲ႔ မေလးရွားဟင္းအနွစ္ (Sambal Chili paste) ကိုအရင္ဆံုး ခ်က္ရပါမည္။
+မေလးရွားဟင္းအနွစ္တြင္ ပါ၀င္ေသာ ပစၥည္းမ်ား
+၁။ ငရုတ္သီးပြနီ အေၿခာက္ – ၈ခု
+၂။ ငရုတ္သီးမွုန္႔ – လက္ဖက္ရည္ဇြန္း ၁ဇြန္း
+၃။ ၾကက္သြန္နီ- ၁ဥ (နွုတ္နွုတ္ဆင္း)
+၄။ ၾကက္သြန္ျဖဴ – ၄မြွာ (နွုတ္နွုတ္ဆင္း)
+၅။ ဂ်င္း – စားပြဲတင္ဇြန္း ၃ပံု၁ပံု (နွုတ္နွုတ္ဆင္း)
+၆။ ငံျပာရည္ – စားပြဲတင္ဇြန္း တ၀က္
+ရ။ ရွမ္းနံနံ – ၁ပင္ (နွုတ္နွုတ္ဆင္း)
+၈။ ၾကက္သြန္ျမိတ္ – ၁ပင္(နွုတ္နွုတ္ဆင္း)
+၉။ ပုဇြန္ေၿခာက္မွုန္႔ –  စားပြဲတင္ဇြန္း ၁ဇြန္း
+၁၀။ ဆႏြင္းမွုန္႔- လက္ဖက္ရည္ဇြန္း တ၀က္
+----------------------------------
+မေလးရွားဟင္းအနွစ္ ခ်က္နည္း
+၁။ ငရုတ္သီးပြ အနီ အေၿခာက္ကို ေရေႏြးထဲ ထည္႔ျပဳတ္ေပးပါ။ ျပီးလွ်င္ ငရုတ္ပြကို blender ေရနည္းနည္းထည္႔  ၾကိတ္ေပးပါ။
+၂။ ဒယ္အိုးထဲ ဆီထည္႔လိုက္ပါ။ ျပီးရင္ ၾကက္သြန္နီ၊ ျဖဴ၊ ဂ်င္း ထည္႔ ဆီထိုးပါ။ ဆႏြင္းမွုန္႔ ထည္႔ပါ။
+၃။ ထုိ႔ေနာက္ ၾကိတ္ထားေသာ ငရုတ္သီးအနွစ္၊ ပုဇြန္ေျခာက္မွုန္႔ (သို႔) ငပိ၊ ငံျပာရည္ ကို ဒယ္ထဲထည္႔ေမြွေပးပါ။
+၄။ နွုတ္နွုတ္ဆင္း ထားေသာ ရွမ္းနံနံ၊ ၾကက္သြန္ျမိတ္၊ ဆား ထည္႔ေမြွေပးပါ။ ဟင္းအနွစ္မ်ားကို ေရခဲေသတၱာ ထဲထည္႔ကာသိမ္းထားျပီး ၾကာရွည္စြာ အသံုးျပဳနုိင္ပါသည္။
+----------------------------------
+မေလးရွားထမင္းေၾကာ္တြင္ ပါ၀င္ေသာပစၥည္းမ်ား
+၁။ ပုဇြန္ ေဘာက်ိတ္ – ၅က်ပ္သား (အခြံခြာ၊ ေခါင္းျဖဳတ္ထားပါ)
+၂။ ၾကက္အူေခ်ာင္း - ၃ေခ်ာင္း (အတံုးေသးမ်ားတံုပါ)
+၂။ မုန္လာဥနီ – ၂ဥ (အတံုးေသးမ်ား တံဳးေပးပါ)
+၃။ ဘိုစားပဲ – ၁၀ခု (ပါးပါးလွီးထားေပးပါ)
+၄။ ၾကက္သြန္ျမိတ္ – အနည္းငယ္ (ပါးပါးလွီးပါ)
+၅။ မေလးရွား ဟင္းအနွစ္ – စားပြဲတင္ဇြန္း ၃ဇြန္း
+၆။ ၾကက္သြန္နီ – တစ္၀က္ (နွုတ္နွုတ္ဆင္းေပးပါ)
+ရ။ ၾကက္သြန္ျဖဴ – ၃မြွာ (နွုတ္နွုတ္ဆင္းေပးပါ)
+၈။ ဆား၊ ၾကက္သားမွုန္႔ – လက္ဖက္ရည္ဇြန္း ၂ဇြန္း
+----------------------------------
+မေလးရွာထမင္းေၾကာ္ ေၾကာ္နည္း
+၁။ ဒယ္ထဲ ဆီ(စားပြဲတင္ဇြန္း ၃ဇြန္း) ထည္႔ျပီး ၾကက္သြန္ျဖဴ၊ နီမ်ားကို ဆီသပ္ေပးပါ။
+၂။ ဆီသပ္ျပီးလွ်င္ ၾကက္အူေခ်ာင္း၊ မုန္လာဥနီ၊ ဘိုစားပဲ မ်ားကို ထည္႔၍ ေရ(လက္ဖက္ရည္ ပန္းကန္လံုး၁လံုး) ထည္႔ျပီး နူးေအာင္တည္ထားေပးပါ။
+၃။ ထုိ႔ေနာက္ ပုဇြန္မ်ားကို ထည္႔ေရာေမြွေပးပါ။
+၄။ ျပီးမွ ခ်က္ျပီးသား ထမင္း ၄ေယာက္စာ ထည္႔ျပီ အားလံုးကို သမေအာင္ေမြွပါ။
+၅။ ထုိ႔ေနာက္ မေလးရွားဟင္းအနွစ္၊ ဆား၊ ၾကက္သားမွဳန္႔ တို႔ကို ထည္႔ေပးျပီး သမေအာင္ ေရာေမြွလုိက္ပါ။
+၆။ အေပၚမွ ၾကက္သြန္ျမိတ္ေလးမ်ားကို ျဖဴးေပးပါ။
+ရ။ ျပီးလွ်င္ ၾကက္ဥတစ္လံုးကို ခေလာက္အျပား ေၾကာ္လိုက္ျပီ ခြက္တစ္ခုထဲထည္႔၍ မေလးရွားထမင္းေၾကာ္နွင္႔ တြဲဖက္စားသံုးနုိင္ပါျပီ
+"/>
+            
+        </LinearLayout>
+
+       
+
+    </ScrollView>
+    
+    
+</LinearLayout>

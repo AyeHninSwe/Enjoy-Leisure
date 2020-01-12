@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <TextView
+        android:id="@+id/myanmar_food4_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="\nရဲယုိရြက္ ငါးေပါင္းထုပ္ (၁၀ထုပ္စာ)\n" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+  
+    <Button
+        android:id="@+id/myanmar_food4_previous_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous" />
+
+    <Button
+        android:id="@+id/myanmar_food4_home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/myanmar_food4_next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+    
+     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/m4" />
+            
+             <TextView
+            android:id="@+id/myanmar_food4_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+             android:text="ပါ၀င္ပစၥည္းမ်ား
+ငါးၾကင္း(သို႔)ငါးခူ(သုိ႔)ငါးရံ႔ – ၄၀က်ပ္သား
+ရဲယုိရြက္ – ရြက္ ၃၀ (ေရစင္ေအာင္ ေဆးထားပါ)
+ၾကက္သြန္နီ – ၂လံုး (ပါးပါးလွီးပါ)
+ၾကက္သြန္ျဖဴ – ၃မႊာ (မညက္တညက္ ေထာင္းပါ)
+ဂ်င္း – လက္တဆစ္ (ညက္ေအာင္ေထာင္းျပီ အရည္ညွစ္ပါ)
+ဆား – လက္ဖက္ရည္ဇြန္း ၁ဇြန္း
+ၾကက္သားမွုန္႔ – လက္ဖက္ရည္ဇြန္း တ၀က္
+ငရုတ္သီးမွုန္႔(သုိ႔)ငရုတ္သီးနွစ္ – လက္ဖက္ရည္ဇြန္း ၁ဇြန္း
+ဆႏြင္းမွုန္႔ – လက္ဖက္ရည္ဇြန္း ၃ပံု၁ပံု
+ဆန္ေလွာ္မွုန္႔ – စားပြဲတင္ဇြန္း ၁ဇြန္း (ဆန္ကိုေလွာ္ ေရစိမ္ထားျပီ ဆုံေထာင္းထဲ ေထာင္းေပးပါ)
+ဟင္းရြက္ဆီ – စားပြဲတင္ဇြန္း ၂ဇြန္း
+-------------------
+ခ်က္ျပဳတ္နည္း
+၁။ အရင္ဆံုး ငါးၾကင္းကို အရုိးထုတ္ဓားေကြး(သို႔)ရုိးရုိးဓားျဖင္႔ ငါးအသားမ်ားကုိ ႏႊာေပးပါ။ အေရခံပါ ဖယ္ေပးပါ။
+၂။ ငါးအသားႏႊာျပီလွ်င္ အေနေတာ္ အတံုးမ်ား တံုးေပးပါ။
+၃။ ျပီလွ်င္ ငါးၾကင္းအသားမ်ားကို (ၾကက္သြန္ျဖဴ၊ ၾကက္သြန္နီ၊ ဂ်င္း၊ ဆား၊ ၾကက္သားမွုန္႔၊ ငရုတ္သီးမွုန္႔၊ ဆန္ေလွာ္မွုန္႔၊ ဆႏြင္းမွုန္႔၊ ဆီ) တုိ႔ျဖင္႔ သမေအာင္ ေရာႏုယ္လုိက္ပါ။
+၄။ ျပီေနာက္ ရဲယုိရြက္ေပၚသုိ႔ ႏုယ္ထားေသာ ငါးၾကင္းသားမ်ားကို တင္ကာ အထုပ္ေလးမ်ား ထုပ္ေပးပါ။ လံုေအာင္ သြားၾကာထုိးတံျဖင္႔ ျပန္ပိတ္ေပးပါ။
+မွတ္ခ်က္ ။ ။ ရဲယိုရြက္အရြက္ ၾကီးလွ်င္ ၂ရြက္ျဖင္႔ ထုပ္ေပးပါ။ အရြက္ေသးလွ်င္ ၃ရြက္ျဖင္႔ ထုပ္ပါ။
+၅။ ထုိ႔ေနာက္ ရဲယိုရြက္ ငါးေပါင္းထုပ္မ်ားကို ေပါင္းအုိးျဖင္႔ ၄၅မိနစ္ခန္႔ ေပါင္းေပးပါ။
+၆။ ရဲယုိရြက္ ငါးေပါင္းထုပ္ရျပီဆုိလွ်င္ အရသာရွိစြာ သံုးေဆာင္လို႔ရပါျပီ…
+"/>
+            
+        </LinearLayout>
+
+       
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+     <TextView
+        android:id="@+id/korean_food3_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="\nကိုရီးယားၾကက္အႂကြပ္ေၾကာ္ !\n" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+  
+    <Button
+        android:id="@+id/korean_food3_previous_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous" />
+
+    <Button
+        android:id="@+id/korean_food3_home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/korean_food3_next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+    
+     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+             <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/k3" />
+            
+             <TextView
+            android:id="@+id/korean_food3_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+             android:text="ပါဝင္ပစၥည္းမ်ား
+ၾကက္သား - ၁ ကီလိုခြဲ (တစ္ေကာင္)
+ဆား - ဇြန္းတစ္ဝက္ (လဖက္ရည္ဇြန္း)
+င႐ုပ္ေကာင္းမႈန္႔ - ဇြန္းတစ္ဝက္ (လဖက္ရည္ဇြန္း)
+ဂ်င္း - (အနည္းငယ္)
+(ေဆာ့ျပဳလုပ္ရန္)
+ဆီ - ၂ ဇြန္း (စားပြဲတင္ဇြန္း)
+ၾကက္သြန္ျဖဴ - ၄ မႊာ (ႏုပ္ႏုပ္စဥ္းပါ)
+င႐ုပ္သီး အ႐ွည္ေျခာက္ - ၅ ေတာင့္ (လက္တစ္ဆစ္ခန္႔လွီးပါ)
+ပဲငံျပာရည္ အၾကည္ (Soy-Sauce) - ၄ ဇြန္း (စားပြဲတင္ဇြန္း)
+Rice-Syrup - ၈ ဇြန္း (စားပြဲတင္ဇြန္း) = ပံုျဖင့့္ ျပထားသည္။
+႐ွာလကာရည္ - ၁ ဇြန္း (စားပြဲတင္ဇြန္း)
+Mustard Sauce - ၁ ဇြန္း (စားပြဲတင္ဇြန္း) = ပံုျဖင့့္ ျပထားသည္။
+သၾကား အညိဳ - ၁ ဇြန္း (စားပြဲတင္ဇြန္း)
+ျပဳလုုပ္နည္း
+ၾကက္သား ၊ ဆား ၊ င႐ုပ္ေကာင္းမႈန္႔ ၊ ဂ်င္း တို႔ျဖင့္ ၾကက္သားကို ေရာနယ္ၿပီး နွပ္ထားပါ ။
+ထို႔ေနာက္ ဇလံုတစ္ခုထဲတြင္ Potato Starch (အာလူးအေၾကာ္မႈန္႔) ၊ မ႐ွိရင္ Corn Starch (ေျပာင္းဖူးအေၾကာ္မႈန္႔) သံုးလို႔ ရပါတယ္ ။ အေၾကာ္မႈန္႔မ်ားျဖင့္ ၾကက္သား တစ္တံုးစီအား လူးေပးပါ ။
+ၾကက္သားကိုပိုၿပီး ႂကြပ္ရြ(Crispy)ျဖစ္ေစရန္ ၂-ႀကိမ္ ေၾကာ္ေပး ရပါတယ္ ။
+ၾကက္ေၾကာ္ထားသည့္ ဆီထဲသို႔ ဇကာခံၿပီး ေျမပဲ လက္တစ္ဆုတ္စာကို ၃၀ -စကၠန္႔ ထည့္ေၾကာ္ပါ ။(ေျမပဲအေရာင္ေျပာင္းလ်ွင္) ဆယ္ယူၿပီး ပန္းကန္ တစ္ခုထဲသို အသင့့္ ထည့္ထားပါ ။
+ထို႔ေနာက္ မီးကို တစ္ဝက္ခ်ၿပီး ၾကက္သားမ်ားကို ဒုတိယအႀကိမ္ ေရႊဝါေရာင္ေပါက္သည္ထိ ေၾကာ္ၿပီး ဇကာျဖင့္ ဆီစစ္ထားပါ ။
+(ေဆာ့ျပဳလုပ္နည္း)
+ဒယ္အိုး တစ္ခုထဲသို႔ ဆီ ၊ ၾကက္သြန္ျဖဴ ၊ င႐ုပ္သီးအ႐ွည္ေျခာက္ ၊ ပဲငံျပာရည္အၾကည္ (Soy-Sauce) ၊ Rice-Syrup ၊ ႐ွလကာရည္ ၊ Mustard Sauce ၊ သၾကားအညိဳတို႔ အားလံုးကို ေရာထည့္ၿပီး မီးေအးေအးျဖင့္ ေမႊေပးပါ ။
+အနံ႔ေမႊးလာပါက ဆီ စစ္ထားသည့္ ၾကက္ေၾကာ္မ်ား ေရာထည့္ၿပီး သမေအာင္ ေမႊေပးပါ ။  ထို႔ေနာက္ အသင့္ ေၾကာ္ထားသည့္ ေျမပဲကို အနည္းငယ္ ေထာင္းၿပီး ထည့္ကာ အရသာ႐ွိစြာ စားသံုးႏိုင္ပါသည္ ။
+
+"/>
+            
+        </LinearLayout>
+
+       
+
+    </ScrollView>
+    
+
+</LinearLayout>

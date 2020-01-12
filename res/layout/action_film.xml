@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#87CEEB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#87CEEB"
+        android:background="#ffffff"
+        android:text="\nAction Film List\n" />
+     
+     <ScrollView
+         android:id="@+id/scrollView1"
+         android:layout_width="match_parent"
+         android:layout_height="fill_parent" >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="fill_parent"
+             android:orientation="vertical" >
+             
+              <GridView
+                 android:id="@+id/action_film_grid"
+                 android:layout_width="match_parent"
+                 android:layout_height="505dp"
+                 android:columnWidth="300dip"
+                 android:horizontalSpacing="5dip"
+                 android:numColumns="auto_fit"
+                 android:stretchMode="spacingWidth"
+                 android:verticalSpacing="35dip" >
+         
+          </GridView>
+          </LinearLayout>
+       </ScrollView>
+
+   
+   
+    </LinearLayout>
+    
+
+</LinearLayout>

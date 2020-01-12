@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+ <TextView
+        android:id="@+id/myanmar_food1_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="\nၾကက္သား ကာလသားဟင္း\n" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+  
+    
+    <Button
+        android:id="@+id/myanmar_food1_home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/myanmar_food1_next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+    
+     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/m1" />
+            
+             <TextView
+            android:id="@+id/myanmar_food1_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="ပါ၀င္ပစၥည္းမ်ား
+ၾကက္သား – ၄၅၀ ဂရမ္ (အတံုးေသးမ်ား တံုးပါ)(ၾကက္ေပါင္၊ ေတာင္ပံ၊ ၾကက္ေျခေထာက္ မိမိၾကိဳက္နွစ္ရာ ထည္႔ခ်က္ႏုိင္သည္)
+ဗူးသီး – တ၀က္ (အခြံႏႊာျပီ တကုိက္စာ အရြယ္ေလးမ်ား တံုးပါ)
+ၾကက္သြန္ျဖဴ – ၄မႊာ (ႏွုတ္ႏွုတ္စဥ္းပါ)
+ၾကက္သြန္နီ – ၁လံုး (နွုတ္နွုတ္စဥ္းပါ)
+ဂ်င္း – လက္တဆစ္ (မညက္တညက္ေထာင္းျပီ အရည္ညွစ္ပါ)
+စပါးလင္ – ၁ခု (မညက္တညက္ ေထာင္းကာ ခ်ည္ပါ)
+ဆႏြင္းမွုန္႔ – လက္ဖက္ရည္ဇြန္း ၄ပံု၁ပံု
+ငရုတ္သီးမွုန္႔ – စားပြဲတင္ဇြန္း တ၀က္
+ဆား – လက္ဖက္ရည္ဇြန္း တ၀က္
+ငါးငံျပာရည္ – စားပြဲတင္ဇြန္း ၂ဇြန္း
+ဆီ – စားပြဲတင္ဇြန္း ၁ဇြန္း
+----------------------------
+ခ်က္ျပဳတ္နည္း
+၁။ ဒယ္ထဲ ဆီထည္႔ျပီ ဆီပူလွ်င္ ၾကက္သြန္ျဖဴ၊ ၾကက္သြန္နီ၊ ဂ်င္း ဆီသပ္ေပးပါ။
+၂။ ျပီေနာက္ ဆႏြင္းမွုန္႔၊ ငရုတ္သီးမွုန္႔၊ စပါးလင္ ထည္႔ျပီ မိနစ္၀က္ခန္႔ ေမႊေပးပါ။
+၃။ ျပီမွ ၾကက္သား၊ ဆား ထည္႔က၂မိနစ္ခန္႔ လံုးခ်က္ေပးပါ။
+၄။ ေရ(၂ခြက္) ထည္႔ေပးျပီ ၾကက္သားကို ဆူေအာင္ မီးအသင္႔တင္႔ျဖင္႔ ၁၀မိနစ္ခန္႔ တည္ထားပါ။
+၅။ ထုိ႔ေနာက္ ဗူးသီး၊ ငါးငံျပာရည္၊ ေရ(၂ခြက္) ေရာျပီ ေနာက္ထပ္၅မိနစ္ခန္႔ ဆူေအာင္ တည္ပါ။
+၆။ ဗူးသီး အနည္းငယ္ ႏြမ္းသြားလွ်င္ အရသာအေပါ႔အငံ႔ျမည္းျပီ မီးပိတ္လိုက္ပါ။
+ရ။ အရသာေကာင္းမြန္တဲ႔ ၾကက္သား ကာလသားဟင္းကို အရသာရွိစြာ ထမင္းျဖင္႔ တြဲဖက္သံုးေဆာင္ႏုိင္ပါျပီ
+"/>
+            
+        </LinearLayout>
+
+       
+
+    </ScrollView>
+    
+</LinearLayout>

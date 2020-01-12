@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <TextView
+        android:id="@+id/myanmar_food9_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="\nရခိုင္ ၾကက္သား ငပိဟင္း\n" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+  
+    <Button
+        android:id="@+id/myanmar_food9_previous_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous" />
+
+    <Button
+        android:id="@+id/myanmar_food9_home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/myanmar_food9_next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+    
+     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/m9" />
+            
+             <TextView
+            android:id="@+id/myanmar_food9_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+             android:text="ပါ၀င္ပစၥည္းမ်ား
+ၾကက္ေပါင္ – ၆ခု (အတံုးလတ္မ်ား ပိုင္းပါ)
+ခရမ္းခ်ဥ္သီး – ၅လံုး (အေစ႔ထုတ္ျပီ အရွည္လီွးပါ)
+ပဒယ္ေဂါ – ၁ခု (ပါးပါး အရွည္လွီးပါ(သို႔) မညက္တညက္ေထာင္း ခ်ည္ပါ)
+ဆႏြင္း – လက္ဖက္ရည္ဇြန္း ၃ပံု၂ပံု
+ငရုတ္သီးဆီခ်က္ – လက္ဖက္ရည္ဇြန္း ၂ဇြန္း (ဒယ္ထဲ ဆီထည္႔ျပီ ငရုတ္သီး အေရာင္တင္မွုန္႔ကို ဆီသပ္ေပးပါ)
+ၾကက္သြန္နီ – ၃လံုး (နွုတ္နွုတ္စင္းပါ)
+ငပိ – စားပြဲတင္ဇြန္း ၃ပံု၂ပံု
+ဆား – လက္ဖက္ရည္ဇြန္း တ၀က္
+ေရ – ခြက္ တ၀က္
+နံနံပင္ – လက္တဆုပ္စာ (ပါးပါးလွီးပါ)
+----------------------------
+ခ်က္ျပဳတ္နည္းမ်ား
+၁။ ဒယ္ထဲ ဆီထည္႔ျပီ ဆီပူလာလွ်င္ ၾကက္သြန္နီ ၂-၃မိနစ္ခန္႔ ဆီသပ္ေပးပါ။ ျပီမွ ဆႏြင္းမွုန္႔ ထည္႔ပါ။
+၂။ ထုိ႔ေနာက္ ပဒယ္ေဂါ၊ ခရမ္းခ်ဥ္သီး ထည္႔ျပီ ေနာက္ထပ္ ၁မိနစ္ခန္႔ တည္ထားပါ။
+၃။ ျပီမွ ၾကက္သားထည္႔ကာ ၾကက္သား အေရာင္ေျပာင္းသည္အထိ လံုးခ်က္ေပးပါ။
+၄။ ျပီလွ်င္ (ငပိ၊ ဆား၊ ငရုတ္သီးဆီခ်က္၊ ေရ(ခြက္၀က္)) တုိ႔ကို ထည္႔ေပးကာ ေနာက္ထပ္ ၃မိနစ္ခန္႔ တည္ထားပါ။
+၅။ ေနာက္ဆံုးမွ နံနံပင္အုပ္ကာ အရသာထူးကဲသည္႔ ရခိုင္ ၾကက္သား ငပိဟင္းလ်ာကို သံုးေဆာင္လုိ႔ရပါျပီ…
+"/>
+            
+        </LinearLayout>
+
+       
+
+    </ScrollView>
+
+</LinearLayout>

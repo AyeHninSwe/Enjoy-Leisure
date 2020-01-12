@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <TextView
+        android:id="@+id/myanmar_food6_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="\nငါးၾကင္းဆီျပန္" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+  
+    <Button
+        android:id="@+id/myanmar_food6_previous_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous" />
+
+    <Button
+        android:id="@+id/myanmar_food6_home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/myanmar_food6_next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+    
+     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+              <ImageView
+                 android:id="@+id/imageView1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="200dp"
+                 android:src="@drawable/m6" />
+            
+             <TextView
+            android:id="@+id/myanmar_food6_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+             android:text="ပါ၀င္ပစၥည္းမ်ား
+ငါးၾကင္း – ၃၀၀ ဂရမ္ (၁လက္မအရြယ္ေလးမ်ား တံုးပါ)
+ခရမ္းခ်ဥ္သီး – ၁လံုး (အေစ႔ထုတ္ျပီ အရွည္ပါးပါးလွီးပါ)
+ငရုတ္သီးေတာင္႔နီ – ၂ခု – ၄ခု (ထပ္ျခမ္းျခမ္းပါ)
+ၾကက္သြန္ျဖဴ – ၃မႊာ (ေထာင္းထားပါ)
+ၾကက္သြန္နီ – ၁လံုး (နွုတ္နွုတ္စဥ္းပါ)
+ဂ်င္း – လက္တဆစ္ (နွုတ္နွုတ္စဥ္းပါ)
+ငရုတ္သီး ဆီသပ္ျပီသား – စားပြဲတင္ဇြန္း ၃ဇြန္း (ငရုတ္သီးမွုန္႔(စားပြဲတင္ဇြန္း ၁ဇြန္း)ကို ဆီခ်က္ထားပါ)
+ဆား – လက္ဖက္ရည္ဇြန္း ၁ဇြန္း
+ၾကက္သားမွုန္႔ – လက္ဖက္ရည္ဇြန္း ၁ဇြန္း
+နံနံပင္ – လက္တဆုပ္စာ (ပါးပါးလွီထားပါ)
+ရွမ္းနံနံပင္ – ၂ခု (ပါးပါးလွီးပါ)
+----------------------------
+ခ်က္ျပဳတ္နည္းမ်ား
+၁။ အရင္ဆံုး ငါးၾကင္းကို (ဆား(လက္ဖက္ရည္ဇြန္း တ၀က္)၊ ၾကက္သားမွုန္႔(လက္ဖက္ရည္ဇြန္း တ၀က္)) တုိ႔ျဖင္႔ ေရာနုယ္လုိက္ျပီ ဂ်ဳံမွုန္႔မ်ား ကပ္ေပးပါ။
+၂။ ျပီလွ်င္ ဒယ္ထဲ ဆီမ်ားမ်ားထည္႔ျပီ ဂ်ဳံကပ္ထားေသာ ငါးၾကင္း မ်ားကို အညိွေရာင္သန္းသည္အထိ ထည္႔ေၾကာ္ေပးပါ။
+၃။ ထုိ႔ေနာက္ ဒယ္ထဲ ဆီ(စားပြဲတင္ဇြန္း ၂ဇြန္း) ထည္႔ျပီ ၾကက္သြန္ျဖဴ၊ ၾကက္သြန္နီ၊ ဂ်င္း၊ ငရုတ္သီးေတာင္႔နီ တုိ႔ကို ဆီသပ္ေပးပါ။
+၄။ ထုိ႔ေနာက္ ခရမ္းခ်ဥ္သီး၊ ငရုတ္သီးဆီခ်က္၊ ငါးၾကင္း၊ ဆား(လက္ဖက္ရည္ဇြန္း တ၀က္)၊ ၾကက္သားမွုန္႔(လက္ဖက္ရည္ဇြန္း တ၀က္)၊ နွင္႔ ငါးၾကင္း ေရျမဳပ္ရုံ ေရထည္႔ျပီ အဖံုးအုပ္ကာ တည္ထားေပးပါ။
+၉။ ဆီျပန္လာလွ်င္ အေပၚမွ နံနံပင္၊ ရွမ္းနံနံမ်ား အုပ္ျပီ မီးပိတ္ေပးပါ။
+၁၀။ ငါးၾကင္းဆီျပန္ဟင္းေလးကို အရသာရွိစြာ သံုးေဆာင္နုိင္ပါျပီ..
+"/>
+
+           
+            
+        </LinearLayout>
+
+       
+
+    </ScrollView>
+
+</LinearLayout>

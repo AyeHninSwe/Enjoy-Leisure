@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <TextView
+        android:id="@+id/chinese_food5_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="\nၾကက္ကုန္းေဘာင္ၾကီးေ\n" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+  
+    <Button
+        android:id="@+id/chinese_food5_previous_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous" />
+
+    <Button
+        android:id="@+id/chinese_food5_home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    
+    
+     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/c5" />
+            
+             <TextView
+            android:id="@+id/chinese_food5_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+             android:text="ပါ၀င္ေသာ ပစၥည္းမ်ား
+၁။ ၾကက္သား (ရင္ဘံုသား) – ၂၀ က်ပ္သား (အေနေတာ္ တံုးေပးပါ)
+၂။ ၾကက္သြန္နီ – ၂လံုး (ေလးစိပ္စိတ္ပါ)
+၃။ မုန္လာဥနီ – ၂ခု (အေနေတာ္ တံုးေပးပါ)
+၄။ ဘိုစားပဲ – ၁၀ခု (အေနေတာ္ တံုးေပးပါ)
+၅။ ေျပာင္းဖူးေသး – ၈ခု (အေနေတာ္ တံုးေပးပါ)
+၆။ ၾကက္သြန္ျမိတ္ – ၂ခု ( အရွည္လွီးေပးပါ)
+ရ။ သီဟိုေစ႔ – ၁၅ေစ႔
+၈။ ငရုတ္ပြနီေျခာက္ – ၃ခု
+------------------------------
+ခ်က္ျပဳတ္နည္း
+၁။ ၾကက္သားကို [ ဆား(လက္ဖက္ရည္ဇြန္း ၁ဇြန္း)၊ ဟင္းခတ္မွုန္႔(လက္ဖက္ရည္ဇြန္း တ၀က္)၊ ပဲငံျပာရည္အေနာက္ (လက္ဖက္ရည္ဇြန္း ၂ဇြန္း)၊ ခရုဆီ(စားပြဲတင္ဇြန္း တ၀က္)၊ ဂ်ဳံမွုန္႔(စားပြဲတင္ဇြန္း တ၀က္) ] ထည္႔ နုယ္ေပးပါ။
+၂။ ျပီးလွ်င္ ဒယ္ထဲ ဆီမ်ားထည္႔ျပီး နုယ္ထားေသာ ၾကက္သားကို ၂မိနစ္ခန္႔ မီးအသင္႔တင္႔ျဖင္႔ ေၾကာ္ေပးပါ။ ျပီးလွ်င္ ေၾကာ္ထားေသာ ၾကက္သားမ်ားကို ဇကာျဖင္႔ ျပန္ဆယ္ထားပါ။
+၃။ ဒယ္ထဲ ဆီ(စားပြဲတင္ဇြန္း ၃ ဇြန္း) ထည္႔ျပီး  ၾကက္သြန္ျဖဴ(လက္ဖက္ရည္ဇြန္း ၁ဇြန္း) ထည္႔ကာ စကၠန္႔အနည္းငယ္မွ် ဆီပူုထုိးေပးပါ။
+၄။ ထုိ႔ေနာက္ ၾကက္သြန္နီ၊ မုန္လာဥနီ ထည္႔ေမြွေပးပါ။ ေျပာင္းဖူးေသး၊ ဘိုစားပဲ ထည္႔ေပးပါ။
+၅။ ျပီးလွ်င္ ၾကက္ျပဳတ္ရည္(သို႔) ေရ(တခြက္) ထည္႔ျပီး အဖံုး ၁မိနစ္ခန္႔အုပ္ထားေပးပါ။
+၆။ ေရအနည္းငယ္က်န္လွ်င္ ၾကက္သား၊ ပဲငံျပာရည္အေနာက္ (လက္ဖက္ရည္ဇြန္း ၁ဇြန္း)၊ နွမ္းဆီ(၄စက္)၊ ခရုဆီ(စားပြဲတင္ဇြန္း ၁ဇြန္း)၊ သၾကား(လကဖက္ရည္ဇြန္း ၁ဇြန္း)၊ ဆား(လက္ဖက္ရည္ဇြန္း ၁ ဇြန္း)၊ ၾကက္သြန္ျမိတ္ ထည္႔ေမြွေပးပါ။
+၇။ ထုိ႔ေနာက္ အရသာအေပါ႔အငံျမည္းျပီး သီဟိုေစ႔၊ ငရုတ္ပြေျခာက္ ထည္႔ျပီး ေရခန္းသည္အထိေမြွေပးပါ။
+၈။ အရသာစူးရွျပီး စားလို႔ေကာင္းေသာ ၾကက္ကုန္းေဘာင္ၾကီးေၾကာ္ကို ထမင္းနွင္႔တြဲဖက္ စားသံုးနုိင္ပါျပီ။
+"/>
+            
+        </LinearLayout>
+
+       
+
+    </ScrollView>
+    
+    
+
+</LinearLayout>
